@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/score/index",
+    "pages/recommend/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#fa2209",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/score/index",
+        "iconPath": "static/tabbar/cate.png",
+        "selectedIconPath": "static/tabbar/cate-active.png",
+        "text": "饮食管家"
+      },
+      {
+        "pagePath": "pages/recommend/index",
+        "iconPath": "static/tabbar/cate.png",
+        "selectedIconPath": "static/tabbar/cate-active.png",
+        "text": "抗炎食物推荐"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

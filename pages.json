@@ -1,0 +1,66 @@
+{
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#fa2209",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/home-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/score/index",
+			"iconPath": "static/tabbar/cate.png",
+			"selectedIconPath": "static/tabbar/cate-active.png",
+			"text": "饮食管家"
+		}, 
+		{
+			"pagePath": "pages/recommend/index",
+			"iconPath": "static/tabbar/cate.png",
+			"selectedIconPath": "static/tabbar/cate-active.png",
+			"text": "抗炎食物推荐"
+		},{
+			"pagePath": "pages/user/index",
+			"iconPath": "static/tabbar/user.png",
+			"selectedIconPath": "static/tabbar/user-active.png",
+			"text": "个人中心"
+		}]
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/score/index",
+			"style": {
+				"navigationBarTitleText": "饮食管家"
+			}
+		},
+		{
+			"path": "pages/recommend/index",
+			"style": {
+				"navigationBarTitleText": "抗炎食物推荐"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+				// "enablePullDownRefresh": true,
+				// "navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#bbff9b",
+		"backgroundColor": "#ffffff",
+		"app-plus": {
+			"background": "#ffffff"
+		}
+	}
+}
