@@ -19,7 +19,7 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/1前端/uniapp/uni-ui/App.vue"]]);
+const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/1前端/uniapp/Healthy-diet/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   return {

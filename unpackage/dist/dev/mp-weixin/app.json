@@ -8,8 +8,8 @@
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#e8e8e8",
+    "backgroundColor": "#ffffff"
   },
   "tabBar": {
     "color": "#000000",

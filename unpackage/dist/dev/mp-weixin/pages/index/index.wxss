@@ -1,6 +1,32 @@
-
-.container {
-		padding: 20px;
-		font-size: 14px;
-		line-height: 24px;
+/* 水平间距 */
+/* 水平间距 */
+.container.data-v-1cf27b2a {
+  padding: 0px;
+  width: 100%;
+}
+.grid-item-box.data-v-1cf27b2a {
+  flex: 1;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.grid-item-box1.data-v-1cf27b2a {
+  flex: 1;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.image.data-v-1cf27b2a {
+  width: 30px;
+  height: 30px;
+}
+.text.data-v-1cf27b2a {
+  font-size: 14px;
+  margin-top: 10px;
 }

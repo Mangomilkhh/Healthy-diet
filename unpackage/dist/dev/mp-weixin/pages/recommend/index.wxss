@@ -1,0 +1,17 @@
+/* 水平间距 */
+/* 水平间距 */
+.text.data-v-1d687fed {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.grid-dynamic-box.data-v-1d687fed {
+  margin-top: 20px;
+}
+.grid-item-box.data-v-1d687fed {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}

@@ -1,1 +1,1 @@
-<view>444</view>
+<view class="data-v-79e6a490" id="myLogin"><uni-card wx:if="{{a}}" class="data-v-79e6a490" u-s="{{['d']}}" u-i="79e6a490-0" bind:__l="__l"><image class="data-v-79e6a490" id="myIcon" src="{{''}}"></image><text class="data-v-79e6a490" id="nickName"></text></uni-card><button wx:else open-type="getUserInfo" bindgetuserinfo="getMyInfo" class="denglu data-v-79e6a490"> 未登录，点此登陆 </button><view class="button data-v-79e6a490"></view></view>

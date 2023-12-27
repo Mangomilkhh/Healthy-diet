@@ -36,9 +36,6 @@
 	.container {
 		padding: 0px;
 		width: 100%;
-		/* font-size: 14px;
-		line-height: 24px; */
-		background: #fff;
 	}
 
 	.grid-item-box {
