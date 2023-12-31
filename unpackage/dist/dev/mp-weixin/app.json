@@ -3,17 +3,22 @@
     "pages/index/index",
     "pages/score/index",
     "pages/recommend/index",
-    "pages/user/index"
+    "pages/user/index",
+    "pages/user/feedback/feedback",
+    "pages/recommend/question/question",
+    "pages/index/record/record",
+    "pages/index/estimate/estimate",
+    "pages/recommend/table/table"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#e8e8e8",
+    "navigationBarBackgroundColor": "#64f089",
     "backgroundColor": "#ffffff"
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#fa2209",
+    "selectedColor": "#69cc64",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
@@ -25,14 +30,14 @@
       },
       {
         "pagePath": "pages/score/index",
-        "iconPath": "static/tabbar/cate.png",
-        "selectedIconPath": "static/tabbar/cate-active.png",
+        "iconPath": "static/tabbar/estimate.png",
+        "selectedIconPath": "static/tabbar/estimate-active.png",
         "text": "饮食管家"
       },
       {
         "pagePath": "pages/recommend/index",
-        "iconPath": "static/tabbar/cate.png",
-        "selectedIconPath": "static/tabbar/cate-active.png",
+        "iconPath": "static/tabbar/recommend.png",
+        "selectedIconPath": "static/tabbar/recommend-active.png",
         "text": "抗炎食物推荐"
       },
       {

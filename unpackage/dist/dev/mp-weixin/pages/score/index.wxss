@@ -1,0 +1,20 @@
+/* 水平间距 */
+/* 水平间距 */
+.doctor.data-v-4030d3be {
+  width: 170px;
+  height: 147px;
+  margin: 50px 14px 25px;
+}
+.content.data-v-4030d3be {
+  margin: 0px 29px 0px;
+}
+.score.data-v-4030d3be {
+  position: relative;
+  top: -170px;
+  left: 46px;
+  font-size: 23px;
+}
+.score .num.data-v-4030d3be {
+  font-size: 45px;
+  color: orangered;
+}

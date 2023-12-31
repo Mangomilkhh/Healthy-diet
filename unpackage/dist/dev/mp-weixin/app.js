@@ -6,6 +6,11 @@ if (!Math) {
   "./pages/score/index.js";
   "./pages/recommend/index.js";
   "./pages/user/index.js";
+  "./pages/user/feedback/feedback.js";
+  "./pages/recommend/question/question.js";
+  "./pages/index/record/record.js";
+  "./pages/index/estimate/estimate.js";
+  "./pages/recommend/table/table.js";
 }
 const _sfc_main = {
   onLaunch: function() {

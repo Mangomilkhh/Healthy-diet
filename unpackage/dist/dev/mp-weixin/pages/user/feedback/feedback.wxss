@@ -1,0 +1,27 @@
+/* 水平间距 */
+/* 水平间距 */
+.feedback_box.data-v-e9b0a919 {
+  margin: 30px 30px;
+}
+.feedback.data-v-e9b0a919 {
+  border: 2px solid #a7ffcc;
+  box-shadow: 3px 3px 6px 1px #d3d3d3;
+  border-radius: 2%;
+  padding: 15rpx;
+}
+.data-v-e9b0a919 uni-textarea {
+  width: 100%;
+  height: 800rpx;
+  background: #fff;
+}
+.btn.data-v-e9b0a919 {
+  margin-top: 100rpx;
+  color: #000;
+  border: 1px solid #64f089;
+  background-color: #64f089;
+}
+.btn.data-v-e9b0a919:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #64f089;
+}

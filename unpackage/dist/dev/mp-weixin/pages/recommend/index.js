@@ -7,7 +7,7 @@ const _sfc_main = {
       list: [
         {
           url: "/static/recommend/r1.png",
-          text: "Grid 1",
+          text: "谷薯类",
           badge: "0",
           type: "primary",
           height: 95,
@@ -16,7 +16,7 @@ const _sfc_main = {
         },
         {
           url: "/static/recommend/r2.png",
-          text: "Grid 2",
+          text: "蔬菜类",
           badge: "1",
           type: "success",
           height: 100,
@@ -25,7 +25,7 @@ const _sfc_main = {
         },
         {
           url: "/static/recommend/r3.png",
-          text: "Grid 3",
+          text: "水果类",
           badge: "99",
           type: "warning",
           height: 80,
@@ -34,7 +34,7 @@ const _sfc_main = {
         },
         {
           url: "/static/recommend/r4.png",
-          text: "Grid 4",
+          text: "畜肉类",
           badge: "2",
           type: "error",
           height: 85,
@@ -43,47 +43,52 @@ const _sfc_main = {
         },
         {
           url: "/static/recommend/r5.png",
-          text: "Grid 5",
+          text: "蛋类",
           height: 95,
           width: 100,
           top: 5
         },
         {
           url: "/static/recommend/r6.png",
-          text: "Grid 6",
+          text: "奶类",
           height: 100,
           width: 105,
           top: 0
         },
         {
           url: "/static/recommend/r7.png",
-          text: "Grid 7",
+          text: "禽肉类",
           height: 85,
           width: 115,
           top: 15
         },
         {
           url: "/static/recommend/r8.png",
-          text: "Grid 8",
+          text: "坚果类",
           height: 100,
           width: 100,
           top: 0
         },
         {
           url: "/static/recommend/r9.png",
-          text: "Grid 9",
+          text: "油脂类",
           height: 100,
           width: 65,
-          top: 0
+          top: 0,
+          navigate: ""
         }
       ]
     };
   },
   methods: {
-    change(e) {
-      common_vendor.index.showToast({
-        title: `点击第${1}个宫格`,
-        icon: "none"
+    toTable(item) {
+      common_vendor.index.navigateTo({
+        url: "/pages/recommend/table/table"
+      });
+    },
+    toQuestion() {
+      common_vendor.index.navigateTo({
+        url: "/pages/recommend/question/question"
       });
     }
   }
@@ -109,18 +114,26 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         e: common_vendor.t(item.text),
         f: item.badge
       }, item.badge ? {} : {}, {
-        g: index,
-        h: "1d687fed-1-" + i0 + ",1d687fed-0",
-        i: common_vendor.p({
+        g: common_vendor.o(($event) => $options.toTable(item), index),
+        h: index,
+        i: "1d687fed-1-" + i0 + ",1d687fed-0",
+        j: common_vendor.p({
           index
         })
       });
     }),
-    b: common_vendor.o($options.change),
-    c: common_vendor.p({
+    b: common_vendor.p({
       column: 3,
       ["show-border"]: false,
       square: false
+    }),
+    c: "70rpx",
+    d: "90rpx",
+    e: common_vendor.o($options.toQuestion),
+    f: common_vendor.p({
+      column: 1,
+      highlight: true,
+      ["show-border"]: false
     })
   };
 }

@@ -1,1 +1,1 @@
-<view>123</view>
+<view class="data-v-4030d3be"><image src="/static/doctor.png" mode="" class="doctor data-v-4030d3be"></image><image src="/static/对话框.png" mode="" class="content data-v-4030d3be"></image><view class="score data-v-4030d3be"><text class="data-v-4030d3be">您的膳食炎症评分为</text><text class="num data-v-4030d3be">85</text>分<view class="data-v-4030d3be"/><view class="data-v-4030d3be" style="display:block;margin-bottom:5px"> 表示为<text class="data-v-4030d3be">抗/促炎</text>饮食，<view class="data-v-4030d3be"/></view><text class="data-v-4030d3be">有/不利于</text>健康。 </view></view>

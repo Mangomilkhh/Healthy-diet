@@ -1,7 +1,7 @@
 {
 	"tabBar": {
 		"color": "#000000",
-		"selectedColor": "#fa2209",
+		"selectedColor": "#69cc64",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
@@ -11,14 +11,14 @@
 			"text": "首页"
 		}, {
 			"pagePath": "pages/score/index",
-			"iconPath": "static/tabbar/cate.png",
-			"selectedIconPath": "static/tabbar/cate-active.png",
+			"iconPath": "static/tabbar/estimate.png",
+			"selectedIconPath": "static/tabbar/estimate-active.png",
 			"text": "饮食管家"
 		}, 
 		{
 			"pagePath": "pages/recommend/index",
-			"iconPath": "static/tabbar/cate.png",
-			"selectedIconPath": "static/tabbar/cate-active.png",
+			"iconPath": "static/tabbar/recommend.png",
+			"selectedIconPath": "static/tabbar/recommend-active.png",
 			"text": "抗炎食物推荐"
 		},{
 			"pagePath": "pages/user/index",
@@ -52,12 +52,52 @@
 				// "enablePullDownRefresh": true,
 				// "navigationStyle": "custom"
 			}
+		},
+		{
+			"path" : "pages/user/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "评价与反馈",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/recommend/question/question",
+			"style" : 
+			{
+				"navigationBarTitleText" : "说明",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/index/record/record",
+			"style" : 
+			{
+				"navigationBarTitleText" : "饮食记录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/index/estimate/estimate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我会估算",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/recommend/table/table",
+			"style" : 
+			{
+				"navigationBarTitleText" : "食物分类表",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#e8e8e8",
+		"navigationBarBackgroundColor": "#64f089",
 		"backgroundColor": "#ffffff",
 		"app-plus": {
 			"background": "#ffffff"
