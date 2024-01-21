@@ -1,25 +1,27 @@
 <template>
-	<uni-grid :column="3" :show-border="false" :square="false">
-		<uni-grid-item v-for="(item ,index) in list" :index="index" :key="index" class="grid-dynamic-box">
-			<view class="grid-item-box" @click="toTable(item)">
-				<image :style="{'margin-top':item.top+ 'rpx',
+	<view class="recommend-bg">
+		<uni-grid :column="3" :show-border="false" :square="false">
+			<uni-grid-item v-for="(item ,index) in list" :index="index" :key="index">
+				<view class="grid-item-box" @click="toTable(item)">
+					<image :style="{'margin-top':item.top+ 'rpx',
 				'width': item.width + 'rpx', 'height':item.height + 'rpx'}" :src="item.url" />
-				<text class="text">{{item.text}}</text>
-				<view v-if="item.badge" class="grid-dot">
+					<text class="text">{{item.text}}</text>
+					<view v-if="item.badge" class="grid-dot">
+					</view>
 				</view>
-			</view>
-		</uni-grid-item>
-	</uni-grid>
+			</uni-grid-item>
+		</uni-grid>
 
-	<uni-grid :column="1" :highlight="true" @change="toQuestion" :show-border="false">
-		<uni-grid-item>
-			<view class="grid-item-box">
-				<image class="what" :style="{
+		<uni-grid :column="1" :highlight="true" @change="toQuestion" :show-border="false">
+			<uni-grid-item>
+				<view class="grid-item-box">
+					<image class="what" :style="{
 				'width':70 + 'rpx', 'height':90 + 'rpx'}" src="../../static/recommend/？.png" />
-				<text class="text">说明</text>
-			</view>
-		</uni-grid-item>
-	</uni-grid>
+					<text class="text">说明</text>
+				</view>
+			</uni-grid-item>
+		</uni-grid>
+	</view>
 </template>
 
 <script>
@@ -128,13 +130,17 @@
 </script>
 
 <style lang="scss" scoped>
+	.recommend-bg {
+		background-color: #fff;
+		// border: 2px solid #a7ffcc;
+		margin: 15px;
+		padding: 10px;
+		border-radius: 5%;
+	}
+
 	.text {
 		font-size: 14px;
 		margin-top: 5px;
-	}
-
-	.grid-dynamic-box {
-		margin-top: 20px;
 	}
 
 	.grid-item-box {
@@ -146,7 +152,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 30px 0;
+		padding: 20px 0;
 	}
 
 	::v-deep .uni-grid-item {

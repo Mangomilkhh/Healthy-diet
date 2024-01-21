@@ -1,5 +1,9 @@
 /* 水平间距 */
 /* 水平间距 */
+.bg.data-v-1cf27b2a {
+  background-color: #fff;
+  border-radius: 5%;
+}
 .container.data-v-1cf27b2a {
   padding: 0px;
   width: 100%;

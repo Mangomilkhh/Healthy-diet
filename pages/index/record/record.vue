@@ -5,7 +5,8 @@
 			<view style="flex: none;">食物名称：</view>
 			<cus-selects v-model="nameVal" :filterable='true' :searchType='1'
 			 placeholder="请输入关键字" @change="changeSelect"
-			  :valueType="alias"  :data="selectList"></cus-selects>
+			  :valueType="alias"
+				:data="selectList"></cus-selects>
 		</view>
 
 		<view class="weight_box">
@@ -39,6 +40,22 @@
 					},
 					{
 						id: 3,
+						title: 'hahah3',
+					},
+					{
+						id: 4,
+						title: 'hahah3',
+					},
+					{
+						id: 5,
+						title: 'hahah3',
+					},
+					{
+						id: 6,
+						title: 'hahah3',
+					},
+					{
+						id: 7,
 						title: 'hahah3',
 					}
 				],

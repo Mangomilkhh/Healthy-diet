@@ -16,7 +16,7 @@
 		</view>
 
 		<uni-grid :column="4" :show-border="false">
-			<uni-grid-item v-for="(item, index) in homeList" :index="index" :key="index">
+			<uni-grid-item v-for="(item, index) in homeList" :index="index" :key="index" class="bg">
 				<view class="grid-item-box" @click="toRecords(item)">
 					<image :style="{
 					'width': item.width + 'rpx', 'height':item.height + 'rpx'}" :src="item.url" />
@@ -26,7 +26,7 @@
 		</uni-grid>
 
 		<uni-grid :column="1" :highlight="true" @change="change" :show-border="false">
-			<uni-grid-item v-for="(item, index) in homeList2" :index="index" :key="index">
+			<uni-grid-item v-for="(item, index) in homeList2" :index="index" :key="index" class="bg">
 				<view class="grid-item-box" @click="toEstimate(item)">
 					<image :style="{
 					'width': item.width + 'rpx', 'height':item.height + 'rpx'}" :src="item.url" />
@@ -111,6 +111,12 @@
 </script>
 
 <style lang="scss" scoped>
+	.bg{
+		background-color: #fff;
+		border-radius: 5%;
+		
+	}
+	
 	.container {
 		padding: 0px;
 		width: 100%;
@@ -147,6 +153,9 @@
 		align-items: center;
 		justify-content: center;
 		padding: 15px 0;
+		// background-color: #fff;
+		// border-radius: 5%;
+		// margin: 15px 5px;
 	}
 
 	.image {

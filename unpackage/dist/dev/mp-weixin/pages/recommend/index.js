@@ -12,7 +12,8 @@ const _sfc_main = {
           type: "primary",
           height: 95,
           width: 95,
-          top: 5
+          top: 5,
+          navigator: "谷薯类及制品"
         },
         {
           url: "/static/recommend/r2.png",
@@ -21,7 +22,8 @@ const _sfc_main = {
           type: "success",
           height: 100,
           width: 95,
-          top: 0
+          top: 0,
+          navigator: "蔬菜类及制品"
         },
         {
           url: "/static/recommend/r3.png",
@@ -30,7 +32,8 @@ const _sfc_main = {
           type: "warning",
           height: 80,
           width: 95,
-          top: 20
+          top: 20,
+          navigator: "水果类及制品"
         },
         {
           url: "/static/recommend/r4.png",
@@ -39,35 +42,40 @@ const _sfc_main = {
           type: "error",
           height: 85,
           width: 100,
-          top: 15
+          top: 15,
+          navigator: "畜肉类及制品"
         },
         {
           url: "/static/recommend/r5.png",
           text: "蛋类",
           height: 95,
           width: 100,
-          top: 5
+          top: 5,
+          navigator: "蛋类及制品"
         },
         {
           url: "/static/recommend/r6.png",
           text: "奶类",
           height: 100,
           width: 105,
-          top: 0
+          top: 0,
+          navigator: "奶类及制品"
         },
         {
           url: "/static/recommend/r7.png",
           text: "禽肉类",
           height: 85,
           width: 115,
-          top: 15
+          top: 15,
+          navigator: "禽肉类及制品"
         },
         {
           url: "/static/recommend/r8.png",
           text: "坚果类",
           height: 100,
           width: 100,
-          top: 0
+          top: 0,
+          navigator: "坚果类"
         },
         {
           url: "/static/recommend/r9.png",
@@ -75,7 +83,7 @@ const _sfc_main = {
           height: 100,
           width: 65,
           top: 0,
-          navigate: ""
+          navigator: "油脂类"
         }
       ]
     };
@@ -83,7 +91,10 @@ const _sfc_main = {
   methods: {
     toTable(item) {
       common_vendor.index.navigateTo({
-        url: "/pages/recommend/table/table"
+        // url: '/pages/recommend/table/table',
+        url: "/pages/recommend/table/table?data=" + encodeURIComponent(JSON.stringify(
+          item.navigator
+        ))
       });
     },
     toQuestion() {
