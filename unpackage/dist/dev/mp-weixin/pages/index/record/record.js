@@ -9,43 +9,36 @@ const _sfc_main = {
     return {
       weightVal: "",
       nameVal: "",
-      selectList: [
-        //根据自己需求获得的下拉数据，如果数据不是{label:'',value:''}结构的就需要起一个别名来代指一下，就需要valueType
-        {
-          id: 1,
-          title: "hahah"
-        },
-        {
-          id: 2,
-          title: "hahah1"
-        },
-        {
-          id: 3,
-          title: "hahah3"
-        },
-        {
-          id: 4,
-          title: "hahah3"
-        },
-        {
-          id: 5,
-          title: "hahah3"
-        },
-        {
-          id: 6,
-          title: "hahah3"
-        },
-        {
-          id: 7,
-          title: "hahah3"
-        }
-      ],
+      //根据自己需求获得的下拉数据，如果数据不是{label:'',value:''}结构的就需要起一个别名来代指一下，就需要valueType
+      selectList: [],
+      // selectList: [
+      // 	{
+      // 		id: 1,
+      // 		title: 'hahah',
+      // 	},
+      // 	{
+      // 		id: 2,
+      // 		title: 'hahah1',
+      // 	},
+      // 	{
+      // 		id: 3,
+      // 		title: 'hahah3',
+      // 	}
+      // ],
       alias: {
         //别名来代指一下
         label: "title",
         value: "id"
       }
     };
+  },
+  mounted() {
+    for (let i = 0; i < 2e3; i++) {
+      this.selectList.push({
+        id: i,
+        title: "hahah" + i
+      });
+    }
   },
   methods: {
     toScore() {

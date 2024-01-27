@@ -15,6 +15,7 @@
 			</swiper>
 		</view>
 
+		<view style="margin: 10px;">
 		<uni-grid :column="4" :show-border="false">
 			<uni-grid-item v-for="(item, index) in homeList" :index="index" :key="index" class="bg">
 				<view class="grid-item-box" @click="toRecords(item)">
@@ -24,7 +25,9 @@
 				</view>
 			</uni-grid-item>
 		</uni-grid>
+		</view>
 
+		<view style="margin: 10px;">
 		<uni-grid :column="1" :highlight="true" @change="change" :show-border="false">
 			<uni-grid-item v-for="(item, index) in homeList2" :index="index" :key="index" class="bg">
 				<view class="grid-item-box" @click="toEstimate(item)">
@@ -34,6 +37,8 @@
 				</view>
 			</uni-grid-item>
 		</uni-grid>
+		</view>
+		
 	</view>
 </template>
 
@@ -114,7 +119,6 @@
 	.bg{
 		background-color: #fff;
 		border-radius: 5%;
-		
 	}
 	
 	.container {

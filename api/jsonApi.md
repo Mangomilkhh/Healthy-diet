@@ -4,14 +4,14 @@
 食物推荐的表格		get
 		
 请求参数		
-{"type": "蛋类"}		
+{"type": "eggs"}		
 		
 返回响应		
 "data":{		
 "tableData":[{		
-    "good": "鸡蛋",		
-    "ordinary": "1111",		
-    "reduce": "2222"		
+    "good": "鸡蛋",		//推荐摄入
+    "ordinary": "1111",		//适量摄入
+    "reduce": "2222"		//少量摄入
 }],		
 "status":"true"		
 }		

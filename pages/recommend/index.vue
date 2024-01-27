@@ -133,7 +133,7 @@
 	.recommend-bg {
 		background-color: #fff;
 		// border: 2px solid #a7ffcc;
-		margin: 15px;
+		margin: 10px;
 		padding: 10px;
 		border-radius: 5%;
 	}

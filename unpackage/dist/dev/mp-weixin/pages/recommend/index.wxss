@@ -2,7 +2,7 @@
 /* 水平间距 */
 .recommend-bg.data-v-1d687fed {
   background-color: #fff;
-  margin: 15px;
+  margin: 10px;
   padding: 10px;
   border-radius: 5%;
 }
