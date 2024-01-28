@@ -103,7 +103,6 @@ const _sfc_main = {
       immediate: true,
       deep: true,
       handler(news) {
-        console.log(news, "value", this.data, this.valueType.value);
         if (news) {
           let index = this.data.findIndex((ite) => ite[this.valueType.value] == news);
           if (index == -1) {

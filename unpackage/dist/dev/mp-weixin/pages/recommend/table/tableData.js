@@ -2,19 +2,19 @@
 const tableData = [{
   "good": "2020-09-01",
   "ordinary": "Dcloud1",
-  "reduce": "上海市普陀区金沙江路 1518 弄"
+  "reduce": ""
 }, {
   "good": "2020-09-02",
   "ordinary": "Dcloud2",
-  "reduce": "上海市普陀区金沙江路 1517 弄"
+  "reduce": "上海市普陀区金沙江路 1 弄"
 }, {
   "good": "2020-09-03",
   "ordinary": "Dcloud3",
-  "reduce": "上海市普陀区金沙江路 1519 弄"
+  "reduce": "上海市普陀区金沙江路 18 弄"
 }, {
   "good": "2020-09-04",
   "ordinary": "Dcloud4",
-  "reduce": "上海市普陀区金沙江路 1516 弄"
+  "reduce": ""
 }, {
   "good": "2020-09-05",
   "ordinary": "Dcloud5",

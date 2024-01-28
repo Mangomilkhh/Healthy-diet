@@ -147,7 +147,7 @@
 				immediate: true,
 				deep: true,
 				handler(news) {
-					console.log(news, 'value', this.data, this.valueType.value)
+					// console.log(news, 'value', this.data, this.valueType.value)
 					if (news) {
 						let index = this.data.findIndex(ite => ite[this.valueType.value] == news)
 						if (index == -1) {
@@ -224,9 +224,10 @@
 <style lang="less" scoped>
 	.select_wrap {
 		// width: 240px;
-		flex: 1;
+		// flex: 1;
+		width: 470rpx;
 		// width: 40%;
-		display: inline-block;
+		// display: inline-block;
 		position: relative;
 
 		.select_input {

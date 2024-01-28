@@ -1,6 +1,5 @@
 .select_wrap.data-v-2fe7f3f1 {
-  flex: 1;
-  display: inline-block;
+  width: 470rpx;
   position: relative;
 }
 .select_wrap .select_input.data-v-2fe7f3f1 {
