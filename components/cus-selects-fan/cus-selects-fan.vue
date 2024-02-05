@@ -4,14 +4,15 @@
 			<view class="input_info" @click.stop="openSelect" v-if="!readonly">
 				<input placeholder-style="font-size: 12px;color: #a0a9b0;" :focus="isClick" @input="selectData"
 					:value="selLabel" type="text" :readonly="readonly" :disabled="readonly" autocomplete="off"
-					:placeholder="placeholder" class="text_tips" >
+					:placeholder="placeholder" class="text_tips">
 			</view>
 			<view class="input_info" @click.stop="openSelect" v-else>
 				<view :placeholder="placeholder" class="text_tips">{{selLabel}} <text v-if="!selLabel">{{placeholder}}</text>
 				</view>
 			</view>
 			<view class="icon_arrow" @click="clearItem">
-				<view v-if="(!value&&!clearable) || (value&&!clearable) || (!value&&clearable) && !filterable" :class="['arrow',show?'arrow_down':'arrow_up']" ></view>
+				<view v-if="(!value&&!clearable) || (value&&!clearable) || (!value&&clearable) && !filterable"
+					:class="['arrow',show?'arrow_down':'arrow_up']"></view>
 				<view class="arrow-clear" v-if="value&&clearable">x</view>
 			</view>
 			<!-- <view class="icon_arrow" @click="clearItem">
@@ -124,7 +125,7 @@
 				isClick: false,
 				totalArr: [],
 				showData: [],
-				selLabel: ''
+				selLabel: '',
 			}
 		},
 		watch: {
@@ -147,7 +148,6 @@
 				immediate: true,
 				deep: true,
 				handler(news) {
-					// console.log(news, 'value', this.data, this.valueType.value)
 					if (news) {
 						let index = this.data.findIndex(ite => ite[this.valueType.value] == news)
 						if (index == -1) {
@@ -158,10 +158,11 @@
 							})
 						} else {
 							this.selLabel = this.data[index][this.valueType.label]
+							// console.log('8888',this.selLabel)
 						}
 					}
 				}
-			}
+			},
 		},
 		created() {},
 		methods: {
@@ -171,10 +172,15 @@
 				// }
 				this.show = !this.show
 				this.isClick = !this.isClick
+				if(!this.isClick){
+					this.$emit('close',this.isClick)
+				}
+
+				// 下拉框合起来时，选中的值不等于输入的值，则清空输入框内容
 			},
 			change(item) {
 				if (this.value != item[this.valueType]) {
-					this.$emit('input', item[this.valueType.value])
+					// this.$emit('input', item[this.valueType.value])
 					this.$emit('change', item[this.valueType.value])
 				}
 				this.selLabel = item[this.valueType.label]
@@ -183,15 +189,15 @@
 				this.showData = this.data
 			},
 			clearItem() {
-				if (this.clearable) {
-					this.$emit('input', '')
-					this.$emit('change', '')
-				}
-				this.selLabel = ''
-
+				// if (this.clearable) {
+				// 	this.$emit('input', '')
+				// 	this.$emit('change', '')
+				// }
+				// this.selLabel = ''
 			},
 			selectData(e) {
 				let sel = e.detail.value
+				this.$emit('input', sel)
 				if (sel) {
 					let arrCons = []
 					let selVal = []

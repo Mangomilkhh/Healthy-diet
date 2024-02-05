@@ -16,12 +16,12 @@
 }
 .btn.data-v-e9b0a919 {
   margin-top: 100rpx;
-  color: #000;
-  border: 1px solid #64f089;
-  background-color: #64f089;
+  color: #fffae8;
+  border: 1px solid #41a863;
+  background-color: #41a863;
 }
 .btn.data-v-e9b0a919:hover {
-  color: #000;
+  color: #41a863;
   background-color: #fff;
-  border: 1px solid #64f089;
+  border: 1px solid #41a863;
 }

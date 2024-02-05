@@ -1,302 +1,505 @@
-[
-    {
-        "foodType": "grains",
-        "foodTypeName": "谷物类",
-        "foodList": [
-            {
-                "recommendedLevel": "recommend",
-                "recommendedLevelName": "推荐摄入",
-                "foods": [
-                    "甘薯（红心）",
-                    "土豆粉",
-                    "土豆，洋芋",
-                    "荞麦面",
-                    "玉米（鲜）",
-                    "燕麦",
-                    "黑米",
-                    "玉米面（黄）",
-                    "燕麦",
-                    "马铃薯（蒸）",
-                    "马铃薯（煮）",
-                    "薏米",
-                    "水面筋",
-                    "烙饼"
-                ]
-            },
-            {
-                "recommendedLevel": "suitable",
-                "recommendedLevelName": "适量摄入",
-                "foods": [
-                    "梗米饭（蒸）",
-                    "小麦粉（代表值）",
-                    "面条（代表值）",
-                    "莜麦面",
-                    "挂面",
-                    "意大利面,通心面",
-                    "小米（黄）",
-                    "馒头",
-                    "籼糯米",
-                    "油面筋",
-                    "籼米粥",
-                    "籼米饭（蒸）",
-                    "烧饼（加糖）",
-                    "花卷"
-                ]
-            },
-            {
-                "recommendedLevel": "less",
-                "recommendedLevelName": "减少摄入",
-                "foods": [
-                    "稻米",
-                    "梗米",
-                    "河粉",
-                    "油饼",
-                    "油条",
-                    "血糯米",
-                    "龙须面（素）",
-                    "粉丝",
-                    "粉条",
-                    "玉米淀粉",
-                    "米粉",
-                    "豌豆粉丝",
-                    "淀粉（马铃薯）",
-                    "淀粉（甘薯）"
-                ]
-            }
-        ]
-    },
-    {
-        "foodType": "vegetables",
-        "foodTypeName": "蔬菜类",
-        "foodList": [
-            {
-                "recommendedLevel": "recommend",
-                "recommendedLevelName": "推荐摄入",
-                "foods": [
-                    "白菜（大白菜）",
-                    "白萝卜",
-                    "菠菜",
-                    "草菇",
-                    "草莓",
-                    "茶树菇",
-                    "大蒜",
-                    "大葱",
-                    "豆角",
-                    "豆腐（北）",
-                    "豆腐（南）",
-                    "豆腐干",
-                    "豆腐皮",
-                    "豆芽",
-                    "番茄",
-                    "番茄酱",
-                    "番茄汁"
-                ]
-            },
-            {
-                "recommendedLevel": "suitable",
-                "recommendedLevelName": "适量摄入",
-                "foods": [
-                    "白瓜子",
-                    "白花菜",
-                    "白萝卜",
-                    "白木耳",
-                    "白糖",
-                    "白条鱼",
-                    "白虾",
-                    "白鱼",
-                    "白玉菇",
-                    "白玉米",
-                    "白玉苦瓜",
-                    "白玉莲",
-                    "白玉米",
-                    "白玉米面",
-                    "白玉米粉",
-                    "白玉米淀粉",
-                    "白玉米油"
-                ]
-            },
-            {
-                "recommendedLevel": "less",
-                "recommendedLevelName": "减少摄入",
-                "foods": [
-                    "白糖",
-                    "白条鱼",
-                    "白虾",
-                    "白鱼",
-                    "白玉菇",
-                    "白玉米",
-                    "白玉苦瓜",
-                    "白玉莲",
-                    "白玉米",
-                    "白玉米面",
-                    "白玉米粉",
-                    "白玉米淀粉",
-                    "白玉米油"
-                ]
-            }
-        ]
-    },
-    {
-        "foodType": "meat",
-        "foodTypeName": "肉类",
-        "foodList": [
-            {
-                "recommendedLevel": "recommend",
-                "recommendedLevelName": "推荐摄入",
-                "foods": [
-                    "鸡蛋（鸡）",
-                    "鸡蛋（鸭）",
-                    "鸡蛋（鹅）"
-                ]
-            },
-            {
-                "recommendedLevel": "suitable",
-                "recommendedLevelName": "适量摄入",
-                "foods": [
-                    "鸡蛋（鸡）",
-                    "鸡蛋（鸭）",
-                    "鸡蛋（鹅）"
-                ]
-            },
-            {
-                "recommendedLevel": "less",
-                "recommendedLevelName": "减少摄入",
-                "foods": [
-                    "鸡蛋（鸡）",
-                    "鸡蛋（鸭）",
-                    "鸡蛋（鹅）"
-                ]
-            }
-        ]
-    },
-    {
-        "foodType": "fruits",
-        "foodTypeName": "水果类",
-        "foodList": [
-            {
-                "recommendedLevel": "recommend",
-                "recommendedLevelName": "推荐摄入",
-                "foods": [
-                    "苹果",
-                    "梨",
-                    "香蕉",
-                    "橙子",
-                    "柚子",
-                    "葡萄",
-                    "草莓",
-                    "樱桃",
-                    "猕猴桃",
-                    "橘子",
-                    "柠檬",
-                    "李子",
-                    "桃子",
-                    "杏子",
-                    "梅子",
-                    "西瓜",
-                    "哈密瓜",
-                    "甜瓜",
-                    "菠萝",
-                    "芒果",
-                    "椰子",
-                    "莲雾",
-                    "木瓜",
-                    "荔枝",
-                    "龙眼",
-                    "山竹",
-                    "石榴",
-                    "柿子",
-                    "枇杷",
-                    "杨梅",
-                    "杨桃",
-                    "桑葚",
-                    "无花果",
-                    "蓝莓",
-                    "黑莓",
-                    "红莓",
-                    "山楂",
-                    "枣",
-                    "枸杞",
-                    "桑椹",
-                    "杏鲍菇",
-                    "猴头菇",
-                    "金针菇",
-                    "香菇",
-                    "草菇",
-                    "鲜蘑菇"
-                ]
-            },
-            {
-                "recommendedLevel": "suitable",
-                "recommendedLevelName": "适量摄入",
-                "foods": [
-                    "苹果",
-                    "梨",
-                    "香蕉",
-                    "橙子",
-                    "柚子",
-                    "葡萄",
-                    "草莓",
-                    "樱桃",
-                    "猕猴桃",
-                    "橘子",
-                    "柠檬",
-                    "李子",
-                    "桃子",
-                    "杏子",
-                    "梅子",
-                    "西瓜",
-                    "哈密瓜",
-                    "甜瓜",
-                    "菠萝",
-                    "芒果",
-                    "椰子",
-                    "莲雾",
-                    "木瓜",
-                    "荔枝",
-                    "龙眼",
-                    "山竹",
-                    "石榴",
-                    "柿子",
-                    "枇杷",
-                    "杨梅",
-                    "杨桃",
-                    "桑葚",
-                    "无花果",
-                    "蓝莓",
-                    "黑莓",
-                    "红莓",
-                    "山楂",
-                    "枣",
-                    "枸杞",
-                    "桑椹",
-                    "杏鲍菇",
-                    "猴头菇",
-                    "金针菇",
-                    "香菇",
-                    "草菇",
-                    "鲜蘑菇"
-                ]
-            },
-            {
-                "recommendedLevel": "less",
-                "recommendedLevelName": "减少摄入",
-                "foods": [
-                    "苹果",
-                    "梨",
-                    "香蕉",
-                    "橙子",
-                    "柚子",
-                    "葡萄",
-                    "草莓",
-                    "樱桃",
-                    "猕猴桃",
-                    "橘子",
-                    "柠檬",
-                    "李子",
-                    "桃子",
-                    "杏"
-                ]
-            }
-        ]
-    }
+[{
+		"foodType": "grains",
+		"foodList": [{
+				"recommend": "甘薯（红心）",
+				"suitable": "梗米饭（蒸）",
+				"less": "稻米"
+			},
+			{
+				"recommend": "土豆粉",
+				"suitable": "小麦粉（代表值）",
+				"less": "梗米"
+			},
+			{
+				"recommend": "土豆，洋芋 ",
+				"suitable": "面条（代表值） ",
+				"less": "河粉 "
+			},
+			{
+				"recommend": "荞麦面 ",
+				"suitable": "莜麦面 ",
+				"less": "油饼 "
+			},
+			{
+				"recommend": "玉米（鲜） ",
+				"suitable": "挂面 ",
+				"less": "油条 "
+			},
+			{
+				"recommend": "燕麦 ",
+				"suitable": "意大利面,通心面 ",
+				"less": "血糯米 "
+			},
+			{
+				"recommend": "黑米  ",
+				"suitable": "小米（黄） ",
+				"less": "龙须面（素） "
+			},
+			{
+				"recommend": "玉米面（黄）  ",
+				"suitable": "馒头 ",
+				"less": "粉丝 "
+			},
+			{
+				"recommend": "燕麦 ",
+				"suitable": "籼糯米 ",
+				"less": "粉条 "
+			},
+			{
+				"recommend": "马铃薯（蒸）  ",
+				"suitable": "油面筋 ",
+				"less": "玉米淀粉 "
+			},
+			{
+				"recommend": "马铃薯（煮） ",
+				"suitable": "籼米粥 ",
+				"less": "米粉 "
+			},
+			{
+				"recommend": "薏米  ",
+				"suitable": "籼米饭（蒸） ",
+				"less": "豌豆粉丝 "
+			},
+			{
+				"recommend": "水面筋 ",
+				"suitable": "烧饼（加糖） ",
+				"less": "淀粉（马铃薯）  "
+			},
+			{
+				"recommend": "烙饼 ",
+				"suitable": "花卷  ",
+				"less": "淀粉（甘薯） "
+			}
+		]
+	},
+	{
+		"foodType": "vegetables",
+		"foodList": [{
+				"recommend": "小白菜[青菜]",
+				"suitable": "莴笋（鲜）",
+				"less": "花菜（白色）"
+			},
+			{
+				"recommend": "芥菜（大叶，鲜）[盖菜，芥蓝]",
+				"suitable": "甜椒[灯笼椒，柿子椒]",
+				"less": "豌豆（带荚，鲜）"
+			},
+			{
+				"recommend": "菠菜（鲜）",
+				"suitable": "丝瓜",
+				"less": "西葫芦"
+			},
+			{
+				"recommend": "空心菜",
+				"suitable": "蒜苗（绿色）",
+				"less": "绿豆芽"
+			},
+			{
+				"recommend": "胡萝卜（黄）",
+				"suitable": "芸豆（鲜）",
+				"less": "冬瓜"
+			},
+			{
+				"recommend": "荠菜（鲜）",
+				"suitable": "西兰花",
+				"less": "菜瓜"
+			},
+			{
+				"recommend": "油菜",
+				"suitable": "四季豆（菜豆）",
+				"less": "大白菜（白口）"
+			},
+			{
+				"recommend": "油麦菜",
+				"suitable": "蒜薹（圆）",
+				"less": "佛手瓜"
+			},
+			{
+				"recommend": "茼蒿（鲜）",
+				"suitable": "娃娃菜",
+				"less": "酸菜"
+			},
+			{
+				"recommend": "苋菜",
+				"suitable": "豆角",
+				"less": "茭白（鲜）"
+			},
+			{
+				"recommend": "鸡毛菜",
+				"suitable": "苦瓜（鲜）",
+				"less": "白萝卜（圆）"
+			},
+			{
+				"recommend": "南瓜（鲜）",
+				"suitable": "黄瓜(鲜)",
+				"less": "毛豆（鲜）"
+			},
+			{
+				"recommend": "香菜（鲜）",
+				"suitable": "辣椒（青，尖）",
+				"less": "白瓜"
+			},
+			{
+				"recommend": "番茄（西红柿）",
+				"suitable": "贡菜（苔菜）",
+				"less": "黄豆芽"
+			},
+			{
+				"recommend": "豇豆",
+				"suitable": "圆白菜",
+				"less": "鱼腥草（根）"
+			},
+			{
+				"recommend": "荷兰豆",
+				"suitable": "金瓜",
+				"less": "红萝卜"
+			},
+			{
+				"recommend": "芹菜茎",
+				"suitable": "大白菜（青口）",
+				"less": "洋葱（鲜）"
+			},
+			{
+				"recommend": "樱桃番茄（小西红柿）",
+				"suitable": "青萝卜",
+				"less": "藕"
+			},
+			{
+				"recommend": "香椿（鲜）",
+				"suitable": "葱（小葱，鲜）",
+				"less": "荸荠（鲜）"
+			},
+			{
+				"recommend": "韭薹",
+				"suitable": "迷你黄瓜",
+				"less": "菱角（老，鲜）"
+			},
+			{
+				"recommend": "芥菜（鲜）",
+				"suitable": "生菜",
+				"less": "甜菜根"
+			},
+			{
+				"recommend": "水萝卜",
+				"suitable": "蚕豆（鲜）",
+				"less": "山药（鲜）"
+			},
+			{
+				"recommend": "蒜黄（黄色）",
+				"suitable": "扁豆",
+				"less": "大蒜"
+			},
+			{
+				"recommend": "秋葵",
+				"suitable": "茄子",
+				"less": "土豆，地瓜"
+			},
+			{
+				"recommend": "韭黄",
+				"suitable": "红心萝卜",
+				"less": "竹笋（鲜）"
+			}
+		]
+	}, {
+		"foodType": "fruits",
+		"foodList": [{
+				"recommend": "橘（小叶橘）",
+				"suitable": "杨梅",
+				"less": "梨（代表值）"
+			},
+			{
+				"recommend": "哈密瓜",
+				"suitable": "黄桃",
+				"less": "荔枝"
+			},
+			{
+				"recommend": "芒果",
+				"suitable": "山楂",
+				"less": "火龙果"
+			},
+			{
+				"recommend": "杏",
+				"suitable": "柠檬",
+				"less": "百香果"
+			},
+			{
+				"recommend": "西瓜（代表值）",
+				"suitable": "马奶子葡萄,青提",
+				"less": "榴莲"
+			},
+			{
+				"recommend": "樱桃",
+				"suitable": "柿饼",
+				"less": "菠萝蜜"
+			},
+			{
+				"recommend": "李子",
+				"suitable": "葡萄（代表值）",
+				"less": "西梅"
+			},
+			{
+				"recommend": "橙",
+				"suitable": "苹果（代表值）",
+				"less": "石榴（代表值）"
+			},
+			{
+				"recommend": "枣（鲜）",
+				"suitable": "菠萝[凤梨]",
+				"less": "蛇果"
+			},
+			{
+				"recommend": "中华猕猴桃",
+				"suitable": "香蕉[芭焦]",
+				"less": "枇杷"
+			},
+			{
+				"recommend": "草莓",
+				"suitable": "羊角蜜",
+				"less": "蓝莓"
+			},
+			{
+				"recommend": "柿",
+				"suitable": "桃（代表值）",
+				"less": "山竹"
+			},
+			{
+				"recommend": "甜瓜[香瓜]",
+				"suitable": "柚",
+				"less": "枣（干）"
+			},
+			{
+				"recommend": "",
+				"suitable": "桑葚（代表值）",
+				"less": "梅[青梅]"
+			}
+		]
+	}, {
+		"foodType": "meat",
+		"foodList": [{
+				"recommend": "牛肝",
+				"suitable": "火腿肠",
+				"less": "猪大排"
+			},
+			{
+				"recommend": "猪肝（新增加）",
+				"suitable": "羊肉（熟）",
+				"less": "牛肉（背部肉）"
+			},
+			{
+				"recommend": "羊肉汤",
+				"suitable": "猪血",
+				"less": "猪蹄（熟）"
+			},
+			{
+				"recommend": "猪肾（fat8g）",
+				"suitable": "香肠",
+				"less": "猪大肠"
+			},
+			{
+				"recommend": "牛肉（里脊肉）[牛柳]",
+				"suitable": "方腿",
+				"less": "牛肉（胸部肉，牛小排）"
+			},
+			{
+				"recommend": "腊肉（生，fat49g）",
+				"suitable": "午餐肉",
+				"less": "猪耳"
+			},
+			{
+				"recommend": "猪肉（里脊）",
+				"suitable": "牛肚",
+				"less": "猪肚"
+			},
+			{
+				"recommend": "牛肉（代表值，瘦，fat3g）",
+				"suitable": "牛蹄筋（熟）",
+				"less": "猪舌[口条]"
+			},
+			{
+				"recommend": "羊蹄筋（泡发）",
+				"suitable": "猪五花（软）",
+				"less": "牛（大）肠"
+			},
+			{
+				"recommend": "牛肉干",
+				"suitable": "贡菜鲜肉丸",
+				"less": "猪肺"
+			},
+			{
+				"recommend": "酱牛肉",
+				"suitable": "红烧肉",
+				"less": "羊肉串（烤）"
+			},
+			{
+				"recommend": "牛百叶（黑）",
+				"suitable": "腊肠（熟）",
+				"less": "猪脾"
+			},
+			{
+				"recommend": "撒尿牛丸",
+				"suitable": "猪肘",
+				"less": "猪脑"
+			}
+		]
+	}, {
+		"foodType": "eggs",
+		"foodList": [{
+				"recommend": "鸭蛋黄",
+				"suitable": "鸡蛋（煮）",
+				"less": "鸡蛋白"
+			},
+			{
+				"recommend": "鹌鹑蛋",
+				"suitable": "鸡蛋（代表值）",
+				"less": "鸡蛋黄"
+			},
+			{
+				"recommend": "荷包蛋（油煎）",
+				"suitable": "松花蛋（鸭蛋）",
+				"less": "咸鸭蛋（煮）"
+			},
+			{
+				"recommend": "荷包蛋（煮）",
+				"suitable": "",
+				"less": ""
+			}
+		]
+	}, {
+		"foodType": "milks",
+		"foodList": [{
+				"recommend": "调制乳（全脂，强化VA、VD）",
+				"suitable": "全脂奶粉（代表值）",
+				"less": "酸奶（代表值，全脂）"
+			},
+			{
+				"recommend": "低脂奶粉（代表值）",
+				"suitable": "纯牛奶（代表值，全脂）",
+				"less": "酸奶（高蛋白）"
+			},
+			{
+				"recommend": "纯牛奶（代表值，脱脂）",
+				"suitable": "调制乳（全脂，旺仔复原乳牛奶）",
+				"less": "奶油"
+			},
+			{
+				"recommend": "羊乳",
+				"suitable": "奶酪[干酪]",
+				"less": "酸奶（果粒）"
+			},
+			{
+				"recommend": "纯牛奶（代表值，低脂）",
+				"suitable": "酸奶（低脂）",
+				"less": "酸奶（脱脂）"
+			},
+			{
+				"recommend": "鲜牛奶（代表值，全脂）",
+				"suitable": "调制乳（低脂，强化锌钙）",
+				"less": ""
+			}
+		]
+	}, {
+		"foodType": "poultry",
+		"foodList": [{
+				"recommend": "鹅肝",
+				"suitable": "鸭（代表值）",
+				"less": "鸭翅"
+			},
+			{
+				"recommend": "鸡杂",
+				"suitable": "鸭心",
+				"less": "炸鸡块[肯德基]"
+			},
+			{
+				"recommend": "鸡心",
+				"suitable": "北京烤鸭",
+				"less": "鸭掌"
+			},
+			{
+				"recommend": "烤鸡",
+				"suitable": "鸡胗",
+				"less": "鸭舌"
+			},
+			{
+				"recommend": "鸡（代表值）",
+				"suitable": "鸡翅",
+				"less": "酱鸭"
+			},
+			{
+				"recommend": "鸡血",
+				"suitable": "盐水鸭（熟）",
+				"less": "鸭肫（胗）"
+			},
+			{
+				"recommend": "鸡胸脯肉",
+				"suitable": "鸭腿",
+				"less": "瓦罐鸡汤（汤）"
+			},
+			{
+				"recommend": "鸡腿",
+				"suitable": "鸡爪",
+				"less": "烧鹅"
+			},
+			{
+				"recommend": "瓦罐鸡汤（肉）",
+				"suitable": "鸭胸脯肉",
+				"less": "鸭肠"
+			},
+			{
+				"recommend": "",
+				"suitable": "",
+				"less": "鸭血[白鸭]"
+			}
+		]
+	}, {
+		"foodType": "nuts",
+		"foodList": [{
+				"recommend": "葵花子（熟，原味）",
+				"suitable": "南瓜子（炒）",
+				"less": "杏仁（熟，去壳）"
+			},
+			{
+				"recommend": "腰果（熟）",
+				"suitable": "莲子（干）",
+				"less": "核桃（干）"
+			},
+			{
+				"recommend": "西瓜子（炒）",
+				"suitable": "芝麻（黑）",
+				"less": "花生仁（炒）"
+			},
+			{
+				"recommend": "葵花子（熟，奶油香）",
+				"suitable": "松子（熟）",
+				"less": "开心果（熟）"
+			},
+			{
+				"recommend": "",
+				"suitable": "芝麻（白）",
+				"less": ""
+			}
+		]
+	}, {
+		"foodType": "oils",
+		"foodList": [{
+				"recommend": "辣椒油",
+				"suitable": "豆油",
+				"less": "羊油"
+			},
+			{
+				"recommend": "牛油",
+				"suitable": "玉米油",
+				"less": "葵花籽油"
+			},
+			{
+				"recommend": "猪油（炼）",
+				"suitable": "花生油",
+				"less": "芝麻油"
+			},
+			{
+				"recommend": "",
+				"suitable": "菜籽油",
+				"less": ""
+			}
+		]
+	}
 ]

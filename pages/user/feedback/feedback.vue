@@ -4,7 +4,9 @@
 		<view class="feedback">
 			<textarea></textarea>
 		</view>
-		<button class="btn">提交</button>
+		<button class="btn" @click="smsTest">提交</button>
+		<!-- <a href="mailto:sample@fly63.com?subject=test&cc=sample@hotmail.com&subject=主题&body=内容">send mail</a> -->
+		
 	</view>
 </template>
 
@@ -16,7 +18,12 @@
 			}
 		},
 		methods: {
-
+			smsTest() {
+				plus.messaging.sendMessage(msg);
+				var msg = plus.messaging.createMessage(plus.messaging.TYPE_SMS);
+				msg.to = ['13682301788'];
+				msg.body = 'This is HTML5 Plus example test message';
+			}
 		}
 	}
 </script>
@@ -38,17 +45,17 @@
 		height: 800rpx;
 		background: #fff;
 	}
-	
+
 	.btn {
 		margin-top: 100rpx;
-		color: #000;
-		border: 1px solid #64f089;
-		background-color: #64f089;
+		color: #fffae8;
+		border: 1px solid #41a863;
+		background-color: #41a863;
 	}
-	
+
 	.btn:hover {
-		color: #000;
+		color: #41a863;
 		background-color: #fff;
-		border: 1px solid #64f089;
+		border: 1px solid #41a863;
 	}
 </style>

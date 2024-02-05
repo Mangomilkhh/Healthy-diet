@@ -49,7 +49,7 @@
 
 <style scoped lang="scss">
 	#myLogin {
-		background-color: #64f08987;
+		background-color: #41a86387;
 		height: 500rpx;
 		display: flex;
 		flex-direction: column;

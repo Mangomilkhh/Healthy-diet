@@ -40,12 +40,12 @@
 .add_btn.data-v-9b4f7924 {
   margin-top: 50rpx;
   color: #000;
-  border: 1px dashed #64f089;
+  border: 1px dashed #41a863;
   background-color: transparent;
 }
 .add_btn.data-v-9b4f7924:hover {
   color: #000;
-  border: 1px dashed #64f089;
+  border: 1px dashed #41a863;
   background-color: #fff;
 }
 .add_btn.data-v-9b4f7924::after {
@@ -56,14 +56,14 @@
 }
 .btn.data-v-9b4f7924 {
   margin-top: 40rpx;
-  color: #000;
-  border: 1px solid #64f089;
-  background-color: #64f089;
+  color: #fffae8;
+  border: 1px solid #41a863;
+  background-color: #41a863;
 }
 .btn.data-v-9b4f7924:hover {
-  color: #000;
+  color: #41a863;
   background-color: #fff;
-  border: 1px solid #64f089;
+  border: 1px solid #41a863;
 }
 .listStyle.data-v-9b4f7924 {
   text-align: left;

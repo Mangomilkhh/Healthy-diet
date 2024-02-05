@@ -37,7 +37,8 @@
 						height: 95,
 						width: 95,
 						top: 5,
-						navigator: '谷薯类及制品',
+						navigator: 'grains',
+						table_title: '谷薯类及制品'
 					},
 					{
 						url: '/static/recommend/r2.png',
@@ -47,7 +48,8 @@
 						height: 100,
 						width: 95,
 						top: 0,
-						navigator: '蔬菜类及制品',
+						navigator: 'vegetables',
+						table_title: '蔬菜类及制品'
 					},
 					{
 						url: '/static/recommend/r3.png',
@@ -57,7 +59,8 @@
 						height: 80,
 						width: 95,
 						top: 20,
-						navigator: '水果类及制品',
+						navigator: 'fruits',
+						table_title: '水果类及制品'
 					},
 					{
 						url: '/static/recommend/r4.png',
@@ -67,7 +70,8 @@
 						height: 85,
 						width: 100,
 						top: 15,
-						navigator: '畜肉类及制品',
+						navigator: 'meat',
+						table_title: '畜肉类及制品'
 					},
 					{
 						url: '/static/recommend/r5.png',
@@ -75,15 +79,17 @@
 						height: 95,
 						width: 100,
 						top: 5,
-						navigator: '蛋类及制品',
+						navigator: 'eggs',
+						table_title: '蛋类及制品'
 					},
 					{
 						url: '/static/recommend/r6.png',
-						text: '奶类',
+						text: '乳类',
 						height: 100,
 						width: 105,
 						top: 0,
-						navigator: '奶类及制品',
+						navigator: 'milks',
+						table_title: '乳类及制品'
 					},
 					{
 						url: '/static/recommend/r7.png',
@@ -91,7 +97,8 @@
 						height: 85,
 						width: 115,
 						top: 15,
-						navigator: '禽肉类及制品',
+						navigator: 'poultry',
+						table_title: '禽肉类及制品'
 					},
 					{
 						url: '/static/recommend/r8.png',
@@ -99,7 +106,8 @@
 						height: 100,
 						width: 100,
 						top: 0,
-						navigator: '坚果类',
+						navigator: 'nuts',
+						table_title: '坚果类'
 					},
 					{
 						url: '/static/recommend/r9.png',
@@ -107,7 +115,8 @@
 						height: 100,
 						width: 65,
 						top: 0,
-						navigator: '油脂类',
+						navigator: 'oils',
+						table_title: '油脂类'
 					}
 				]
 			}
@@ -116,8 +125,8 @@
 			toTable(item) {
 				uni.navigateTo({
 					// url: '/pages/recommend/table/table',
-					url: '/pages/recommend/table/table?data=' + encodeURIComponent(JSON.stringify(
-						item.navigator))
+					url: '/pages/recommend/table/table?data=' 
+					+ encodeURIComponent(JSON.stringify(item))
 				})
 			},
 			toQuestion() {

@@ -106,8 +106,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         e: key
       };
     }),
-    b: _ctx.index,
-    c: common_vendor.p({
+    b: common_vendor.p({
       ["is-shadow"]: false
     })
   };

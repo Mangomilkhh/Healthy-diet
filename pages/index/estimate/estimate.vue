@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<uni-card :is-shadow="false">
-			<view v-for="(item,key) in estimateList" :key="key" :index="index" style="display: inline-block;">
+			<view v-for="(item,key) in estimateList" :key="key" style="display: inline-block;">
 				<image :style="{'margin-top':item.top+ 'rpx',
 				'width': item.width + 'rpx', 'height':item.height + 'rpx'}" :src="item.url" class="est_img"></image>
 			</view>

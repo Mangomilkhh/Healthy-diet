@@ -119,8 +119,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         })
       };
     }),
-    h: common_vendor.o(_ctx.change),
-    i: common_vendor.p({
+    h: common_vendor.p({
       column: 1,
       highlight: true,
       ["show-border"]: false

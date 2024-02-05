@@ -124,10 +124,12 @@ const _sfc_main = {
     openSelect() {
       this.show = !this.show;
       this.isClick = !this.isClick;
+      if (!this.isClick) {
+        this.$emit("close", this.isClick);
+      }
     },
     change(item) {
       if (this.value != item[this.valueType]) {
-        this.$emit("input", item[this.valueType.value]);
         this.$emit("change", item[this.valueType.value]);
       }
       this.selLabel = item[this.valueType.label];
@@ -136,14 +138,10 @@ const _sfc_main = {
       this.showData = this.data;
     },
     clearItem() {
-      if (this.clearable) {
-        this.$emit("input", "");
-        this.$emit("change", "");
-      }
-      this.selLabel = "";
     },
     selectData(e) {
       let sel = e.detail.value;
+      this.$emit("input", sel);
       if (sel) {
         let arrCons = [];
         let selVal = [];

@@ -14,12 +14,6 @@ const foods = [
     expression: "C*(61/100)/1000"
   },
   {
-    id: 3,
-    title: "香米",
-    group: 1,
-    expression: "0.0134"
-  },
-  {
     id: 4,
     title: "水面筋",
     group: 1,
@@ -83,7 +77,7 @@ const foods = [
     id: 14,
     title: "藕粉",
     group: 1,
-    expression: "0.0744"
+    expression: "C*(351/100)/1000"
   },
   {
     id: 15,
@@ -113,7 +107,7 @@ const foods = [
     id: 19,
     title: "婴幼儿米粉（胡萝卜，雀巢）",
     group: 1,
-    expression: "0.1496"
+    expression: "C*(148/100)/1000"
   },
   {
     id: 20,
@@ -227,7 +221,7 @@ const foods = [
     id: 38,
     title: "籼米（优标）",
     group: 1,
-    expression: "0.2792"
+    expression: "C*(334/100)/1000"
   },
   {
     id: 39,
@@ -323,7 +317,7 @@ const foods = [
     id: 54,
     title: "籼米米粉",
     group: 1,
-    expression: "0.414"
+    expression: "C*(350/100)/1000"
   },
   {
     id: 55,
@@ -341,7 +335,7 @@ const foods = [
     id: 57,
     title: "早糯谷",
     group: 1,
-    expression: "0.45312"
+    expression: "C*(334/100)/1000"
   },
   {
     id: 58,
@@ -395,7 +389,7 @@ const foods = [
     id: 66,
     title: "早籼（标一）",
     group: 1,
-    expression: "0.5265"
+    expression: "C*(334/100)/1000"
   },
   {
     id: 67,
@@ -449,7 +443,7 @@ const foods = [
     id: 75,
     title: "早籼（特等）",
     group: 1,
-    expression: "1.038"
+    expression: "C*(334/100)/1000"
   },
   {
     id: 76,
@@ -467,7 +461,7 @@ const foods = [
     id: 78,
     title: "甜玉米粒",
     group: 2,
-    expression: "0.0238"
+    expression: "C*(300/100)/1000"
   },
   {
     id: 79,
@@ -551,7 +545,7 @@ const foods = [
     id: 92,
     title: "苦荞麦粉",
     group: 2,
-    expression: "0.152"
+    expression: "C*(152/100)/1000"
   },
   {
     id: 93,
@@ -582,12 +576,6 @@ const foods = [
     title: "小米面",
     group: 2,
     expression: "C*(356/100)/1000"
-  },
-  {
-    id: 98,
-    title: "青稞",
-    group: 2,
-    expression: "0.2034"
   },
   {
     id: 99,
@@ -713,7 +701,7 @@ const foods = [
     id: 119,
     title: "豆腐干（菜干）",
     group: 3,
-    expression: "0.068"
+    expression: "C*(140/100)/1000"
   },
   {
     id: 120,
@@ -731,7 +719,7 @@ const foods = [
     id: 122,
     title: "豆粕（大豆蛋白）",
     group: 3,
-    expression: "0.0775"
+    expression: "C*(120/100)/1000"
   },
   {
     id: 123,
@@ -786,12 +774,6 @@ const foods = [
     title: "油豆腐",
     group: 3,
     expression: "C*(244/100)/1000"
-  },
-  {
-    id: 132,
-    title: "煮缸豆",
-    group: 3,
-    expression: "0.09975"
   },
   {
     id: 133,
@@ -851,7 +833,7 @@ const foods = [
     id: 142,
     title: "带皮蚕豆",
     group: 3,
-    expression: "0.14136"
+    expression: "C*(141/100)/1000"
   },
   {
     id: 143,
@@ -864,12 +846,6 @@ const foods = [
     title: "绿豆",
     group: 3,
     expression: "C*(316/100)/1000"
-  },
-  {
-    id: 145,
-    title: "素什锦",
-    group: 3,
-    expression: "0.173"
   },
   {
     id: 146,
@@ -929,7 +905,7 @@ const foods = [
     id: 155,
     title: "豆奶粉（大磨牌）",
     group: 3,
-    expression: "0.2592"
+    expression: "C*(253/100)/1000"
   },
   {
     id: 156,
@@ -941,7 +917,7 @@ const foods = [
     id: 157,
     title: "芸豆（杂，带皮）",
     group: 3,
-    expression: "0.306"
+    expression: "C*(373/100)/1000"
   },
   {
     id: 158,
@@ -953,7 +929,7 @@ const foods = [
     id: 159,
     title: "豆粕",
     group: 3,
-    expression: "0.31"
+    expression: "C*(310/100)/1000"
   },
   {
     id: 160,
@@ -1007,7 +983,7 @@ const foods = [
     id: 168,
     title: "豆腐皮",
     group: 3,
-    expression: "0.431"
+    expression: "C*(153/100)/1000"
   },
   {
     id: 169,
@@ -1019,13 +995,13 @@ const foods = [
     id: 170,
     title: "豇豆（紫）",
     group: 3,
-    expression: "0.4575"
+    expression: "C*(373/100)/1000"
   },
   {
     id: 171,
     title: "豆肝尖",
     group: 3,
-    expression: "0.803"
+    expression: "C*(373/100)/1000"
   },
   {
     id: 172,
@@ -1055,7 +1031,7 @@ const foods = [
     id: 176,
     title: "羽衣甘蓝",
     group: 4,
-    expression: "0.0128"
+    expression: "C*(22/100)/1000"
   },
   {
     id: 177,
@@ -1103,7 +1079,7 @@ const foods = [
     id: 184,
     title: "红旦旦萝卜",
     group: 4,
-    expression: "0.01615"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 185,
@@ -1313,7 +1289,7 @@ const foods = [
     id: 219,
     title: "黄金西葫芦",
     group: 5,
-    expression: "0.012012"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 220,
@@ -1355,7 +1331,7 @@ const foods = [
     id: 226,
     title: "花案菜",
     group: 5,
-    expression: "0.015"
+    expression: "C*(15/100)/1000"
   },
   {
     id: 227,
@@ -1373,7 +1349,7 @@ const foods = [
     id: 229,
     title: "刺儿菜",
     group: 5,
-    expression: "0.019"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 230,
@@ -1415,7 +1391,7 @@ const foods = [
     id: 236,
     title: "乌菜",
     group: 5,
-    expression: "0.02225"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 237,
@@ -1451,7 +1427,7 @@ const foods = [
     id: 242,
     title: "新西兰菠菜",
     group: 5,
-    expression: "0.03"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 243,
@@ -1469,7 +1445,7 @@ const foods = [
     id: 245,
     title: "苦菜（节节花，拒马菜）",
     group: 5,
-    expression: "0.035"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 246,
@@ -1487,7 +1463,7 @@ const foods = [
     id: 248,
     title: "车前子",
     group: 5,
-    expression: "0.1005"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 249,
@@ -1556,12 +1532,6 @@ const foods = [
     expression: "C*(99/100)/1000"
   },
   {
-    id: 260,
-    title: "南瓜粉",
-    group: 6,
-    expression: "0.16"
-  },
-  {
     id: 261,
     title: "黄花菜",
     group: 6,
@@ -1571,24 +1541,28 @@ const foods = [
     id: 262,
     title: "小西红柿",
     group: 7,
+    infla_score: 0.034,
     expression: "C*(22/100)/1000"
   },
   {
     id: 263,
     title: "西红柿（罐头）",
     group: 7,
+    infla_score: 0.034,
     expression: "C*(21/100)/1000"
   },
   {
     id: 264,
     title: "西红柿",
     group: 7,
+    infla_score: 0.034,
     expression: "C*(19/100)/1000"
   },
   {
     id: 265,
     title: "西红柿（奶柿子）",
     group: 7,
+    infla_score: 0.034,
     expression: "C*(13/100)/1000"
   },
   {
@@ -1631,7 +1605,7 @@ const foods = [
     id: 272,
     title: "野茭白",
     group: 8,
-    expression: "0.00288"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 273,
@@ -1649,7 +1623,7 @@ const foods = [
     id: 275,
     title: "毛笋",
     group: 8,
-    expression: "0.004221"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 276,
@@ -1943,7 +1917,7 @@ const foods = [
     id: 324,
     title: "秋葵",
     group: 8,
-    expression: "0.03256"
+    expression: "C*(20/100)/1000"
   },
   {
     id: 325,
@@ -2033,7 +2007,7 @@ const foods = [
     id: 339,
     title: "黑笋（干）",
     group: 8,
-    expression: "0.097128"
+    expression: "C*(100/100)/1000"
   },
   {
     id: 340,
@@ -2051,7 +2025,7 @@ const foods = [
     id: 342,
     title: "龙传豆",
     group: 8,
-    expression: "0.1394"
+    expression: "C*(139/100)/1000"
   },
   {
     id: 343,
@@ -2064,12 +2038,6 @@ const foods = [
     title: "毛豆",
     group: 8,
     expression: "C*(123/100)/1000"
-  },
-  {
-    id: 345,
-    title: "玉兰片",
-    group: 8,
-    expression: "0.3224"
   },
   {
     id: 346,
@@ -2225,96 +2193,112 @@ const foods = [
     id: 371,
     title: "山药",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(56/100)/1000"
   },
   {
     id: 372,
     title: "藕",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(70/100)/1000"
   },
   {
     id: 373,
     title: "马铃薯（煮）",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(65/100)/1000"
   },
   {
     id: 374,
     title: "马铃薯（土豆，洋芋）",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(76/100)/1000"
   },
   {
     id: 375,
     title: "大薯",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(105/100)/1000"
   },
   {
     id: 376,
     title: "芋头",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(79/100)/1000"
   },
   {
     id: 377,
     title: "甘薯（白心）（红皮山芋）",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(104/100)/1000"
   },
   {
     id: 378,
     title: "马铃薯（烤）",
     group: 10,
-    expression: "0.056"
+    infla_score: -0.032,
+    expression: "C*(130/100)/1000"
   },
   {
     id: 379,
     title: "木薯",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(116/100)/1000"
   },
   {
     id: 380,
     title: "山药（干）",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(324/100)/1000"
   },
   {
     id: 381,
     title: "葛",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(145/100)/1000"
   },
   {
     id: 382,
     title: "菱角",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(98/100)/1000"
   },
   {
     id: 383,
     title: "凉薯",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(55/100)/1000"
   },
   {
     id: 384,
     title: "蒸马铃薯",
     group: 10,
-    expression: "0.138"
+    infla_score: -0.032,
+    expression: "C*(126/100)/1000"
   },
   {
     id: 385,
     title: "槟榔芋",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(87/100)/1000"
   },
   {
     id: 386,
     title: "马铃薯丁（脱水）",
     group: 10,
+    infla_score: -0.032,
     expression: "C*(337/100)/1000"
   },
   {
@@ -2327,7 +2311,7 @@ const foods = [
     id: 388,
     title: "合锦菜",
     group: 11,
-    expression: "0.00225"
+    expression: "C*(25/100)/1000"
   },
   {
     id: 389,
@@ -2444,12 +2428,6 @@ const foods = [
     expression: "C*(22/100)/1000"
   },
   {
-    id: 408,
-    title: "酱甘露",
-    group: 11,
-    expression: "0.0185"
-  },
-  {
     id: 409,
     title: "酱蒜头",
     group: 11,
@@ -2519,7 +2497,7 @@ const foods = [
     id: 420,
     title: "腌花生米",
     group: 11,
-    expression: "0.05505"
+    expression: "C*(260/100)/1000"
   },
   {
     id: 421,
@@ -2537,187 +2515,218 @@ const foods = [
     id: 423,
     title: "海带（江白菜）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(12/100)/1000"
   },
   {
     id: 424,
     title: "木耳（水发，黑木耳）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(21/100)/1000"
   },
   {
     id: 425,
     title: "平菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(20/100)/1000"
   },
   {
     id: 426,
     title: "猴头菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(13/100)/1000"
   },
   {
     id: 427,
     title: "鸡油菌",
     group: 12,
-    expression: "0.006762"
+    infla_score: -0.033,
+    expression: "C*(14/100)/1000"
   },
   {
     id: 428,
     title: "鸡枞花",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(16/100)/1000"
   },
   {
     id: 429,
     title: "洋蘑菇",
     group: 12,
-    expression: "0.011155"
+    infla_score: -0.033,
+    expression: "C*(14/100)/1000"
   },
   {
     id: 430,
     title: "草菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(23/100)/1000"
   },
   {
     id: 431,
     title: "海带（浸，江白菜）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(14/100)/1000"
   },
   {
     id: 432,
     title: "血红菇（干）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(252/100)/1000"
   },
   {
     id: 433,
     title: "白蘑菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(27/100)/1000"
   },
   {
     id: 434,
     title: "蘑菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(20/100)/1000"
   },
   {
     id: 435,
     title: "杏鲍菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(31/100)/1000"
   },
   {
     id: 436,
     title: "榛蘑",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(46/100)/1000"
   },
   {
     id: 437,
     title: "金针菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(26/100)/1000"
   },
   {
     id: 438,
     title: "木耳（干，黑木耳）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(205/100)/1000"
   },
   {
     id: 439,
     title: "银耳",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(200/100)/1000"
   },
   {
     id: 440,
     title: "香菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(19/100)/1000"
   },
   {
     id: 441,
     title: "松茸",
     group: 12,
-    expression: "0.0336"
+    infla_score: -0.033,
+    expression: "C*(36/100)/1000"
   },
   {
     id: 442,
     title: "海带（干，江白菜）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(77/100)/1000"
   },
   {
     id: 443,
     title: "紫菜",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(207/100)/1000"
   },
   {
     id: 444,
     title: "元蘑",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(146/100)/1000"
   },
   {
     id: 445,
     title: "竹荪（千）",
     group: 12,
-    expression: "0.062"
+    infla_score: -0.033,
+    expression: "C*(104/100)/1000"
   },
   {
     id: 446,
     title: "茶树菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(279/100)/1000"
   },
   {
     id: 447,
     title: "菌藻类",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(252/100)/1000"
   },
   {
     id: 448,
     title: "海带菜",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(89/100)/1000"
   },
   {
     id: 449,
     title: "香菇（干）",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(211/100)/1000"
   },
   {
     id: 450,
     title: "鸡腿菇",
     group: 12,
-    expression: "0.1285"
+    infla_score: -0.033,
+    expression: "C*(14/100)/1000"
   },
   {
     id: 451,
     title: "冬菇",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(212/100)/1000"
   },
   {
     id: 452,
     title: "口蘑",
     group: 12,
+    infla_score: -0.033,
     expression: "C*(242/100)/1000"
   },
   {
     id: 453,
     title: "海冻菜",
     group: 12,
-    expression: "0.314"
+    infla_score: -0.033,
+    expression: "C*(54/100)/1000"
   },
   {
     id: 454,
@@ -2735,19 +2744,19 @@ const foods = [
     id: 456,
     title: "桂圆肉",
     group: 13,
-    expression: "0.00626"
+    expression: "C*(313/100)/1000"
   },
   {
     id: 457,
     title: "红元帅苹果",
     group: 13,
-    expression: "0.0079296"
+    expression: "C*(59/100)/1000"
   },
   {
     id: 458,
     title: "黑枣",
     group: 13,
-    expression: "0.0080712"
+    expression: "C*(35/100)/1000"
   },
   {
     id: 459,
@@ -2759,7 +2768,7 @@ const foods = [
     id: 460,
     title: "枣（鲜）",
     group: 13,
-    expression: "C*(122/100)/1000"
+    expression: "C*(228/100)/1000"
   },
   {
     id: 461,
@@ -2789,19 +2798,13 @@ const foods = [
     id: 465,
     title: "西梅",
     group: 13,
-    expression: "0.0180804"
-  },
-  {
-    id: 466,
-    title: "黄皮果",
-    group: 13,
-    expression: "0.01829"
+    expression: "C*(35/100)/1000"
   },
   {
     id: 467,
     title: "白粉桃",
     group: 13,
-    expression: "0.0186"
+    expression: "C*(39/100)/1000"
   },
   {
     id: 468,
@@ -2813,7 +2816,7 @@ const foods = [
     id: 469,
     title: "木梨",
     group: 13,
-    expression: "0.0224"
+    expression: "C*(46/100)/1000"
   },
   {
     id: 470,
@@ -2825,7 +2828,7 @@ const foods = [
     id: 471,
     title: "白兰瓜",
     group: 13,
-    expression: "0.0231"
+    expression: "C*(26/100)/1000"
   },
   {
     id: 472,
@@ -2873,7 +2876,7 @@ const foods = [
     id: 479,
     title: "荔枝",
     group: 13,
-    expression: "0.04088"
+    expression: "C*(46/100)/1000"
   },
   {
     id: 480,
@@ -2891,7 +2894,7 @@ const foods = [
     id: 482,
     title: "菠萝蜜",
     group: 13,
-    expression: "0.04429"
+    expression: "C*(103/100)/1000"
   },
   {
     id: 483,
@@ -2909,7 +2912,7 @@ const foods = [
     id: 485,
     title: "红星苹果",
     group: 13,
-    expression: "0.04845"
+    expression: "C*(51/100)/1000"
   },
   {
     id: 486,
@@ -2945,7 +2948,7 @@ const foods = [
     id: 491,
     title: "海棠果",
     group: 13,
-    expression: "0.053"
+    expression: "C*(30/100)/1000"
   },
   {
     id: 492,
@@ -2969,7 +2972,7 @@ const foods = [
     id: 495,
     title: "旱苹果",
     group: 13,
-    expression: "0.0576"
+    expression: "C*(46/100)/1000"
   },
   {
     id: 496,
@@ -3005,13 +3008,13 @@ const foods = [
     id: 501,
     title: "人参果",
     group: 13,
-    expression: "0.0704"
+    expression: "C*(40/100)/1000"
   },
   {
     id: 502,
     title: "库尔勒梨",
     group: 13,
-    expression: "0.07644"
+    expression: "C*(36/100)/1000"
   },
   {
     id: 503,
@@ -3047,7 +3050,7 @@ const foods = [
     id: 508,
     title: "锦丰梨",
     group: 13,
-    expression: "0.09315"
+    expression: "C*(34/100)/1000"
   },
   {
     id: 509,
@@ -3125,13 +3128,13 @@ const foods = [
     id: 521,
     title: "小枣（干）",
     group: 13,
-    expression: "0.21546"
+    expression: "C*(299/100)/1000"
   },
   {
     id: 522,
     title: "榴莲",
     group: 13,
-    expression: "0.27195"
+    expression: "C*(80/100)/1000"
   },
   {
     id: 523,
@@ -3152,12 +3155,6 @@ const foods = [
     expression: "C*(298/100)/1000"
   },
   {
-    id: 526,
-    title: "椰子",
-    group: 13,
-    expression: "0.426888"
-  },
-  {
     id: 527,
     title: "蜜枣",
     group: 13,
@@ -3167,7 +3164,7 @@ const foods = [
     id: 528,
     title: "柠檬汁",
     group: 14,
-    expression: "0.039"
+    expression: "C*(40/100)/1000"
   },
   {
     id: 529,
@@ -3185,7 +3182,7 @@ const foods = [
     id: 531,
     title: "乌梅汁",
     group: 14,
-    expression: "0.266"
+    expression: "C*(89/100)/1000"
   },
   {
     id: 532,
@@ -3197,7 +3194,7 @@ const foods = [
     id: 533,
     title: "红果汁",
     group: 14,
-    expression: "0.3925"
+    expression: "C*(64/100)/1000"
   },
   {
     id: 534,
@@ -3239,19 +3236,19 @@ const foods = [
     id: 540,
     title: "西瓜子（话梅）",
     group: 15,
-    expression: "0.0493392"
+    expression: "C*(60/100)/1000"
   },
   {
     id: 541,
     title: "腰果",
     group: 15,
-    expression: "0.0552"
+    expression: "C*(552/100)/1000"
   },
   {
     id: 542,
     title: "松子（生）",
     group: 15,
-    expression: "0.06144"
+    expression: "C*(600/100)/1000"
   },
   {
     id: 543,
@@ -3269,7 +3266,7 @@ const foods = [
     id: 545,
     title: "栗子仁（熟）",
     group: 15,
-    expression: "0.087"
+    expression: "C*(87/100)/1000"
   },
   {
     id: 546,
@@ -3281,7 +3278,7 @@ const foods = [
     id: 547,
     title: "松子（炒）",
     group: 15,
-    expression: "0.095945"
+    expression: "C*(700/100)/1000"
   },
   {
     id: 548,
@@ -3377,13 +3374,13 @@ const foods = [
     id: 563,
     title: "腰果（熟）",
     group: 15,
-    expression: "0.297"
+    expression: "C*(297100)/1000"
   },
   {
     id: 564,
     title: "杏仁（熟，去壳）",
     group: 15,
-    expression: "0.3025"
+    expression: "C*(300/100)/1000"
   },
   {
     id: 565,
@@ -3425,366 +3422,427 @@ const foods = [
     id: 571,
     title: "牛肉（后腱）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(98/100)/1000"
   },
   {
     id: 572,
     title: "猪肉（瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(143/100)/1000"
   },
   {
     id: 573,
     title: "牛蹄筋（熟）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(147/100)/1000"
   },
   {
     id: 574,
     title: "猪肉（里脊）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(155/100)/1000"
   },
   {
     id: 575,
     title: "驴肉（瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(116/100)/1000"
   },
   {
     id: 576,
     title: "羊肉（上脑）",
     group: 16,
-    expression: "0.047"
+    infla_score: 0.032,
+    expression: "C*(147/100)/1000"
   },
   {
     id: 577,
     title: "牛肉（后腿）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(106/100)/1000"
   },
   {
     id: 578,
     title: "牛肉（前腱）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(113/100)/1000"
   },
   {
     id: 579,
     title: "猪蹄（熟）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(260/100)/1000"
   },
   {
     id: 580,
     title: "猪肉（腿）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(190/100)/1000"
   },
   {
     id: 581,
     title: "羊肉（冻）",
     group: 16,
-    expression: "0.057"
+    infla_score: 0.032,
+    expression: "C*(178/100)/1000"
   },
   {
     id: 582,
     title: "猪肉（后臀尖）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(336/100)/1000"
   },
   {
     id: 583,
     title: "牛肉（胸部肉）【牛胸】",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(326/100)/1000"
   },
   {
     id: 584,
     title: "猪肉（前肘）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(287/100)/1000"
   },
   {
     id: 585,
     title: "猪皮",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(363/100)/1000"
   },
   {
     id: 586,
     title: "瘦牛肉",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(106/100)/1000"
   },
   {
     id: 587,
     title: "猪肉（前臀尖）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(289/100)/1000"
   },
   {
     id: 588,
     title: "羊肉（肥瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(203/100)/1000"
   },
   {
     id: 589,
     title: "烧羊肉（五香）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(183/100)/1000"
   },
   {
     id: 590,
     title: "牛肉（酱，五香）",
     group: 16,
-    expression: "0.0916"
+    infla_score: 0.032,
+    expression: "C*(200/100)/1000"
   },
   {
     id: 591,
     title: "牛鞭（泡发）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(117/100)/1000"
   },
   {
     id: 592,
     title: "牛肉（清香）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(200/100)/1000"
   },
   {
     id: 593,
     title: "牛肉（肥瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(125/100)/1000"
   },
   {
     id: 594,
     title: "兔肉",
     group: 16,
-    expression: "0.102"
+    infla_score: 0.032,
+    expression: "C*(102/100)/1000"
   },
   {
     id: 595,
     title: "牛肉（前腿）",
     group: 16,
-    expression: "0.105"
+    infla_score: 0.032,
+    expression: "C*(105/100)/1000"
   },
   {
     id: 596,
     title: "羊肉（瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(118/100)/1000"
   },
   {
     id: 597,
     title: "羊肉片",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(118/100)/1000"
   },
   {
     id: 598,
     title: "马肉",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(122/100)/1000"
   },
   {
     id: 599,
     title: "猪肉（硬五花）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(339/100)/1000"
   },
   {
     id: 600,
     title: "牛肉（牛柳）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(134/100)/1000"
   },
   {
     id: 601,
     title: "狗肉",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(116/100)/1000"
   },
   {
     id: 602,
     title: "羊肉（后腿）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(110/100)/1000"
   },
   {
     id: 603,
     title: "猪小排",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(278/100)/1000"
   },
   {
     id: 604,
     title: "牛蹄筋",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(151/100)/1000"
   },
   {
     id: 605,
     title: "猪肉（通脊、社长大猪）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(159/100)/1000"
   },
   {
     id: 606,
     title: "牛肉（臀部肉）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(117/100)/1000"
   },
   {
     id: 607,
     title: "猪耳",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(176/100)/1000"
   },
   {
     id: 608,
     title: "牛肉(腑肋)",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(123/100)/1000"
   },
   {
     id: 609,
     title: "牛肉（背部肉）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(193/100)/1000"
   },
   {
     id: 610,
     title: "猪肉（肥瘦）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(395/100)/1000"
   },
   {
     id: 611,
     title: "猪肘棒（熟）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(314/100)/1000"
   },
   {
     id: 612,
     title: "猪肉（后肘）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(320/100)/1000"
   },
   {
     id: 613,
     title: "猪蹄筋",
     group: 16,
-    expression: "0.234"
+    infla_score: 0.032,
+    expression: "C*(234/100)/1000"
   },
   {
     id: 614,
     title: "牛肉（小腿肉）（牛展、牛腱子）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(122/100)/1000"
   },
   {
     id: 615,
     title: "猪大排",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(264/100)/1000"
   },
   {
     id: 616,
     title: "牛肉（牛腩）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(332/100)/1000"
   },
   {
     id: 617,
     title: "牛肉（里脊）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(107/100)/1000"
   },
   {
     id: 618,
     title: "猪肉（硬肋、良杂猪）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(536/100)/1000"
   },
   {
     id: 619,
     title: "猪肉（肋条肉）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(568/100)/1000"
   },
   {
     id: 620,
     title: "猪蹄",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(260/100)/1000"
   },
   {
     id: 621,
     title: "羊肉（里脊）",
     group: 16,
-    expression: "0.309"
+    infla_score: 0.032,
+    expression: "C*(309/100)/1000"
   },
   {
     id: 622,
     title: "羊肉（胸脯）",
     group: 16,
-    expression: "0.32319"
+    infla_score: 0.032,
+    expression: "C*(323/100)/1000"
   },
   {
     id: 623,
     title: "羊肉（熟）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(217/100)/1000"
   },
   {
     id: 624,
     title: "猪肉（肥）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(807/100)/1000"
   },
   {
     id: 625,
     title: "叉烧肉",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(279/100)/1000"
   },
   {
     id: 626,
     title: "扒猪脸",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(373/100)/1000"
   },
   {
     id: 627,
     title: "猪肉软五花",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(349/100)/1000"
   },
   {
     id: 628,
     title: "猪肘棒",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(248/100)/1000"
   },
   {
     id: 629,
     title: "猪肉（清蒸）",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(198/100)/1000"
   },
   {
     id: 630,
     title: "猪肉（猪脖）",
     group: 16,
-    expression: "0.77895"
+    infla_score: 0.032,
+    expression: "C*(148/100)/1000"
   },
   {
     id: 631,
     title: "猪头皮",
     group: 16,
+    infla_score: 0.032,
     expression: "C*(499/100)/1000"
   },
   {
@@ -3827,7 +3885,7 @@ const foods = [
     id: 638,
     title: "肉松",
     group: 17,
-    expression: "0.079"
+    expression: "C*(79/100)/1000"
   },
   {
     id: 639,
@@ -3839,13 +3897,13 @@ const foods = [
     id: 640,
     title: "火腿心全精肉",
     group: 17,
-    expression: "0.0805"
+    expression: "C*(805/100)/1000"
   },
   {
     id: 641,
     title: "牛肉干（长富牌）",
     group: 17,
-    expression: "0.0855"
+    expression: "C*(443/100)/1000"
   },
   {
     id: 642,
@@ -3881,7 +3939,7 @@ const foods = [
     id: 647,
     title: "牛肉松",
     group: 17,
-    expression: "0.11125"
+    expression: "C*(445/100)/1000"
   },
   {
     id: 648,
@@ -3893,7 +3951,7 @@ const foods = [
     id: 649,
     title: "咖喱牛肉干",
     group: 17,
-    expression: "0.12388"
+    expression: "C*(123/100)/1000"
   },
   {
     id: 650,
@@ -3917,7 +3975,7 @@ const foods = [
     id: 653,
     title: "牛肉干（沙爹牌）",
     group: 17,
-    expression: "0.171"
+    expression: "C*(171/100)/1000"
   },
   {
     id: 654,
@@ -3941,7 +3999,7 @@ const foods = [
     id: 657,
     title: "午餐肉",
     group: 17,
-    expression: "0.229"
+    expression: "C*(229/100)/1000"
   },
   {
     id: 658,
@@ -3953,7 +4011,7 @@ const foods = [
     id: 659,
     title: "儿童肠",
     group: 17,
-    expression: "0.232"
+    expression: "C*(232/100)/1000"
   },
   {
     id: 660,
@@ -3971,7 +4029,7 @@ const foods = [
     id: 662,
     title: "热狗（原味）",
     group: 17,
-    expression: "0.25"
+    expression: "C*(25/100)/1000"
   },
   {
     id: 663,
@@ -3983,7 +4041,7 @@ const foods = [
     id: 664,
     title: "箭鱼",
     group: 17,
-    expression: "0.271"
+    expression: "C*(271/100)/1000"
   },
   {
     id: 665,
@@ -4025,7 +4083,7 @@ const foods = [
     id: 671,
     title: "烤羊肉串",
     group: 17,
-    expression: "0.309"
+    expression: "C*(309/100)/1000"
   },
   {
     id: 672,
@@ -4037,7 +4095,7 @@ const foods = [
     id: 673,
     title: "鲮鱼（罐头）",
     group: 17,
-    expression: "0.399"
+    expression: "C*(399/100)/1000"
   },
   {
     id: 674,
@@ -4085,7 +4143,7 @@ const foods = [
     id: 681,
     title: "猪肉脯",
     group: 17,
-    expression: "0.63504"
+    expression: "C*(635/100)/1000"
   },
   {
     id: 682,
@@ -4097,7 +4155,7 @@ const foods = [
     id: 683,
     title: "羊大肠",
     group: 18,
-    expression: "0.0075"
+    expression: "C*(75/100)/1000"
   },
   {
     id: 684,
@@ -4109,7 +4167,7 @@ const foods = [
     id: 685,
     title: "羊心",
     group: 18,
-    expression: "0.0113"
+    expression: "C*(113/100)/1000"
   },
   {
     id: 686,
@@ -4127,7 +4185,7 @@ const foods = [
     id: 688,
     title: "羊肺",
     group: 18,
-    expression: "0.0192"
+    expression: "C*(192/100)/1000"
   },
   {
     id: 689,
@@ -4151,7 +4209,7 @@ const foods = [
     id: 692,
     title: "羊肝",
     group: 18,
-    expression: "0.0268"
+    expression: "C*(268/100)/1000"
   },
   {
     id: 693,
@@ -4175,7 +4233,7 @@ const foods = [
     id: 696,
     title: "牛大肠",
     group: 18,
-    expression: "0.0396"
+    expression: "C*(396/100)/1000"
   },
   {
     id: 697,
@@ -4205,7 +4263,7 @@ const foods = [
     id: 701,
     title: "牛舌",
     group: 18,
-    expression: "0.049"
+    expression: "C*(49/100)/1000"
   },
   {
     id: 702,
@@ -4259,7 +4317,7 @@ const foods = [
     id: 710,
     title: "猪脑",
     group: 18,
-    expression: "0.131"
+    expression: "C*(131/100)/1000"
   },
   {
     id: 711,
@@ -4295,7 +4353,7 @@ const foods = [
     id: 716,
     title: "火鸡肝",
     group: 18,
-    expression: "0.286"
+    expression: "C*(286/100)/1000"
   },
   {
     id: 717,
@@ -4409,7 +4467,7 @@ const foods = [
     id: 735,
     title: "火鸡腿",
     group: 19,
-    expression: "0.17199"
+    expression: "C*(173/100)/1000"
   },
   {
     id: 736,
@@ -4421,7 +4479,7 @@ const foods = [
     id: 737,
     title: "辣鸡翅",
     group: 19,
-    expression: "0.22579"
+    expression: "C*(226/100)/1000"
   },
   {
     id: 738,
@@ -4439,13 +4497,13 @@ const foods = [
     id: 740,
     title: "华青鸡",
     group: 19,
-    expression: "0.25438"
+    expression: "C*(254/100)/1000"
   },
   {
     id: 741,
     title: "红烧鸭",
     group: 19,
-    expression: "0.2704"
+    expression: "C*(270/100)/1000"
   },
   {
     id: 742,
@@ -4469,7 +4527,7 @@ const foods = [
     id: 745,
     title: "新奥尔良鸡翅",
     group: 19,
-    expression: "0.336"
+    expression: "C*(336/100)/1000"
   },
   {
     id: 746,
@@ -4487,204 +4545,231 @@ const foods = [
     id: 748,
     title: "中老年奶粉（森永牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(418/100)/1000"
   },
   {
     id: 749,
     title: "奶粉（可淇牌）",
     group: 20,
-    expression: "0.0432"
+    infla_score: -0.036,
+    expression: "C*(432/100)/1000"
   },
   {
     id: 750,
     title: "全脂牛奶粉",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(478/100)/1000"
   },
   {
     id: 751,
     title: "强化奶粉",
     group: 20,
-    expression: "0.051"
+    infla_score: -0.036,
+    expression: "C*(51/100)/1000"
   },
   {
     id: 752,
     title: "牛乳（西得牛）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(60/100)/1000"
   },
   {
     id: 753,
     title: "羊奶",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(59/100)/1000"
   },
   {
     id: 754,
     title: "酸奶（果料）",
     group: 20,
-    expression: "0.08375"
+    infla_score: -0.036,
+    expression: "C*(83/100)/1000"
   },
   {
     id: 755,
     title: "全脂速溶奶粉",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(466/100)/1000"
   },
   {
     id: 756,
     title: "牛乳（部分脱脂，帕玛拉特）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(43/100)/1000"
   },
   {
     id: 757,
     title: "酸奶（高蛋白）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(62/100)/1000"
   },
   {
     id: 758,
     title: "中脂酸奶",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(64/100)/1000"
   },
   {
     id: 759,
     title: "黄油渣",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(599/100)/1000"
   },
   {
     id: 760,
     title: "酸奶（果粒）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(97/100)/1000"
   },
   {
     id: 761,
     title: "牛乳（光明牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(61/100)/1000"
   },
   {
     id: 762,
     title: "牛乳（X）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(54/100)/1000"
   },
   {
     id: 763,
     title: "全脂奶粉（雀巢）",
     group: 20,
-    expression: "0.126"
+    infla_score: -0.036,
+    expression: "C*(126/100)/1000"
   },
   {
     id: 764,
     title: "牛乳（完达山牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(60/100)/1000"
   },
   {
     id: 765,
     title: "酸奶（脱脂）",
     group: 20,
-    expression: "0.1425"
+    infla_score: -0.036,
+    expression: "C*(142/100)/1000"
   },
   {
     id: 766,
     title: "牛乳",
     group: 20,
-    expression: "0.1475"
+    infla_score: -0.036,
+    expression: "C*(148/100)/1000"
   },
   {
     id: 767,
     title: "牛乳（强化锌、钙，帕玛拉特）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(60/100)/1000"
   },
   {
     id: 768,
     title: "牛乳（伊利牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(68/100)/1000"
   },
   {
     id: 769,
     title: "全脂奶粉（伊利）",
     group: 20,
-    expression: "0.1512"
+    infla_score: -0.036,
+    expression: "C*(151/100)/1000"
   },
   {
     id: 770,
     title: "牛乳（蒙牛牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(67/100)/1000"
   },
   {
     id: 771,
     title: "牛乳（帕玛拉特牌）",
     group: 20,
-    expression: "0.1525"
+    infla_score: -0.036,
+    expression: "C*(153/100)/1000"
   },
   {
     id: 772,
     title: "酸奶（X）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(72/100)/1000"
   },
   {
     id: 773,
     title: "牛乳（龙丹牌）",
     group: 20,
-    expression: "0.165"
+    infla_score: -0.036,
+    expression: "C*(165/100)/1000"
   },
   {
     id: 774,
     title: "牛奶",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(79/100)/1000"
   },
   {
     id: 775,
     title: "学生奶",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(66/100)/1000"
   },
   {
     id: 776,
     title: "酸奶（调味）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(88/100)/1000"
   },
   {
     id: 777,
     title: "奶片",
     group: 20,
-    expression: "0.3776"
-  },
-  {
-    id: 778,
-    title: "全脂加糖奶粉",
-    group: 20,
-    expression: "0.735"
+    infla_score: -0.036,
+    expression: "C*(377/100)/1000"
   },
   {
     id: 779,
     title: "中老年奶粉（三鹿牌）",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(403/100)/1000"
   },
   {
     id: 780,
     title: "中老年奶粉",
     group: 20,
-    expression: "0.858"
+    infla_score: -0.036,
+    expression: "C*(858/100)/1000"
   },
   {
     id: 781,
     title: "牛乳粉",
     group: 20,
+    infla_score: -0.036,
     expression: "C*(484/100)/1000"
   },
   {
@@ -4721,7 +4806,7 @@ const foods = [
     id: 787,
     title: "鸭蛋白",
     group: 21,
-    expression: "0.047"
+    expression: "C*(47/100)/1000"
   },
   {
     id: 788,
@@ -4751,7 +4836,7 @@ const foods = [
     id: 792,
     title: "毛蛋",
     group: 21,
-    expression: "0.07656"
+    expression: "C*(176/100)/1000"
   },
   {
     id: 793,
@@ -4784,22 +4869,10 @@ const foods = [
     expression: "C*(190/100)/1000"
   },
   {
-    id: 798,
-    title: "海鸥蛋",
-    group: 21,
-    expression: "0.1374165"
-  },
-  {
     id: 799,
     title: "煮荷包蛋",
     group: 21,
     expression: "C*(164/100)/1000"
-  },
-  {
-    id: 800,
-    title: "鸡蛋粉",
-    group: 21,
-    expression: "0.2289"
   },
   {
     id: 801,
@@ -4829,7 +4902,7 @@ const foods = [
     id: 805,
     title: "鳕鱼（烤）",
     group: 22,
-    expression: "0.01632"
+    expression: "C*(96/100)/1000"
   },
   {
     id: 806,
@@ -4889,7 +4962,7 @@ const foods = [
     id: 815,
     title: "鲚鱼（小）[小凤尾鱼]",
     group: 22,
-    expression: "0.0558"
+    expression: "C*(124/100)/1000"
   },
   {
     id: 816,
@@ -4920,12 +4993,6 @@ const foods = [
     title: "黄鱼（大黄花鱼）",
     group: 22,
     expression: "C*(97/100)/1000"
-  },
-  {
-    id: 821,
-    title: "敖鱼",
-    group: 22,
-    expression: "0.06764"
   },
   {
     id: 822,
@@ -5000,12 +5067,6 @@ const foods = [
     expression: "C*(104/100)/1000"
   },
   {
-    id: 834,
-    title: "金木鱼",
-    group: 22,
-    expression: "0.096465"
-  },
-  {
     id: 835,
     title: "黄颡鱼【戈牙鱼，黄鳍鱼】",
     group: 22,
@@ -5030,22 +5091,10 @@ const foods = [
     expression: "C*(88/100)/1000"
   },
   {
-    id: 839,
-    title: "红三鱼",
-    group: 22,
-    expression: "0.101"
-  },
-  {
     id: 840,
     title: "青砖鱼",
     group: 22,
     expression: "C*(155/100)/1000"
-  },
-  {
-    id: 841,
-    title: "鲒花",
-    group: 22,
-    expression: "0.110565"
   },
   {
     id: 842,
@@ -5084,12 +5133,6 @@ const foods = [
     expression: "C*(103/100)/1000"
   },
   {
-    id: 848,
-    title: "狗母鱼",
-    group: 22,
-    expression: "0.134"
-  },
-  {
     id: 849,
     title: "鲅鱼",
     group: 22,
@@ -5099,25 +5142,19 @@ const foods = [
     id: 850,
     title: "白菇鱼",
     group: 22,
-    expression: "0.147735"
-  },
-  {
-    id: 851,
-    title: "沙丁鱼（油浸）",
-    group: 22,
-    expression: "0.1804"
+    expression: "C*(150/100)/1000"
   },
   {
     id: 852,
     title: "口头鱼",
     group: 22,
-    expression: "0.1876"
+    expression: "C*(134/100)/1000"
   },
   {
     id: 853,
     title: "鱼子酱",
     group: 22,
-    expression: "0.201"
+    expression: "C*(204/100)/1000"
   },
   {
     id: 854,
@@ -5141,7 +5178,7 @@ const foods = [
     id: 857,
     title: "沙丁鱼（盐水浸）",
     group: 22,
-    expression: "0.3397"
+    expression: "C*(89/100)/1000"
   },
   {
     id: 858,
@@ -5171,7 +5208,7 @@ const foods = [
     id: 862,
     title: "刺蛄",
     group: 23,
-    expression: "0.02695"
+    expression: "C*(24/100)/1000"
   },
   {
     id: 863,
@@ -5183,7 +5220,7 @@ const foods = [
     id: 864,
     title: "鳌虾",
     group: 23,
-    expression: "0.02883"
+    expression: "C*(23/100)/1000"
   },
   {
     id: 865,
@@ -5231,7 +5268,7 @@ const foods = [
     id: 872,
     title: "塘水虾[草虾]",
     group: 23,
-    expression: "0.10944"
+    expression: "C*(24/100)/1000"
   },
   {
     id: 873,
@@ -5273,13 +5310,13 @@ const foods = [
     id: 879,
     title: "海参（水浸）",
     group: 24,
-    expression: "0.0075"
+    expression: "C*(24/100)/1000"
   },
   {
     id: 880,
     title: "蛏子",
     group: 24,
-    expression: "0.0114"
+    expression: "C*(24/100)/1000"
   },
   {
     id: 881,
@@ -5303,7 +5340,7 @@ const foods = [
     id: 884,
     title: "田鸡（青蛙）",
     group: 24,
-    expression: "0.017205"
+    expression: "C*(24/100)/1000"
   },
   {
     id: 885,
@@ -5339,7 +5376,7 @@ const foods = [
     id: 890,
     title: "乌鱼蛋",
     group: 24,
-    expression: "0.028908"
+    expression: "C*(89/100)/1000"
   },
   {
     id: 891,
@@ -5354,12 +5391,6 @@ const foods = [
     expression: "C*(69/100)/1000"
   },
   {
-    id: 893,
-    title: "贻贝（干）[淡菜，壳菜]",
-    group: 24,
-    expression: "0.0355"
-  },
-  {
     id: 894,
     title: "海蟹",
     group: 24,
@@ -5369,7 +5400,7 @@ const foods = [
     id: 895,
     title: "梭子蟹",
     group: 24,
-    expression: "0.04655"
+    expression: "C*(95/100)/1000"
   },
   {
     id: 896,
@@ -5399,13 +5430,13 @@ const foods = [
     id: 900,
     title: "蟹肉",
     group: 24,
-    expression: "0.062"
+    expression: "C*(62/100)/1000"
   },
   {
     id: 901,
     title: "墨鱼丸",
     group: 24,
-    expression: "0.064"
+    expression: "C*(64/100)/1000"
   },
   {
     id: 902,
@@ -5417,7 +5448,7 @@ const foods = [
     id: 903,
     title: "鲜贝",
     group: 24,
-    expression: "0.077"
+    expression: "C*(77/100)/1000"
   },
   {
     id: 904,
@@ -5429,7 +5460,7 @@ const foods = [
     id: 905,
     title: "红螺",
     group: 24,
-    expression: "0.098175"
+    expression: "C*(119/100)/1000"
   },
   {
     id: 906,
@@ -5453,7 +5484,7 @@ const foods = [
     id: 909,
     title: "章鱼",
     group: 24,
-    expression: "0.2106"
+    expression: "C*(135/100)/1000"
   },
   {
     id: 910,
@@ -5465,7 +5496,7 @@ const foods = [
     id: 911,
     title: "鲍鱼（干）",
     group: 24,
-    expression: "0.2415"
+    expression: "C*(322/100)/1000"
   },
   {
     id: 912,
@@ -5483,7 +5514,7 @@ const foods = [
     id: 914,
     title: "醪糟",
     group: 25,
-    expression: "0.01"
+    expression: "C*(103/100)/1000"
   },
   {
     id: 915,
@@ -5525,7 +5556,7 @@ const foods = [
     id: 921,
     title: "灌肠",
     group: 25,
-    expression: "0.201"
+    expression: "C*(134/100)/1000"
   },
   {
     id: 922,
@@ -5537,7 +5568,7 @@ const foods = [
     id: 923,
     title: "酿皮",
     group: 25,
-    expression: "0.318"
+    expression: "C*(300/100)/1000"
   },
   {
     id: 924,
@@ -5567,7 +5598,7 @@ const foods = [
     id: 928,
     title: "香油炒面",
     group: 25,
-    expression: "0.6105"
+    expression: "C*(580/100)/1000"
   },
   {
     id: 929,
@@ -5579,7 +5610,7 @@ const foods = [
     id: 930,
     title: "铁板牛肉炒面",
     group: 25,
-    expression: "2.19"
+    expression: "C*(438/100)/1000"
   },
   {
     id: 931,
@@ -5597,13 +5628,13 @@ const foods = [
     id: 933,
     title: "西瓜脯",
     group: 26,
-    expression: "0.0338"
+    expression: "C*(311/100)/1000"
   },
   {
     id: 934,
     title: "杏干",
     group: 26,
-    expression: "0.04125"
+    expression: "C*(220/100)/1000"
   },
   {
     id: 935,
@@ -5621,25 +5652,25 @@ const foods = [
     id: 937,
     title: "芝麻桃酥",
     group: 26,
-    expression: "0.07005"
+    expression: "C*(480/100)/1000"
   },
   {
     id: 938,
     title: "苹果罐头",
     group: 26,
-    expression: "0.078"
+    expression: "C*(120/100)/1000"
   },
   {
     id: 939,
     title: "果冻（椰奶果冻）",
     group: 26,
-    expression: "0.109"
+    expression: "C*(80/100)/1000"
   },
   {
     id: 940,
     title: "奶油五香豆",
     group: 26,
-    expression: "0.11"
+    expression: "C*(220/100)/1000"
   },
   {
     id: 941,
@@ -5669,7 +5700,7 @@ const foods = [
     id: 945,
     title: "香酥兰花豆",
     group: 26,
-    expression: "0.1248"
+    expression: "C*(220/100)/1000"
   },
   {
     id: 946,
@@ -5687,7 +5718,7 @@ const foods = [
     id: 948,
     title: "鱼肉粒",
     group: 26,
-    expression: "0.1316"
+    expression: "C*(376/100)/1000"
   },
   {
     id: 949,
@@ -5717,13 +5748,13 @@ const foods = [
     id: 953,
     title: "山楂条",
     group: 26,
-    expression: "0.15087"
+    expression: "C*(150/100)/1000"
   },
   {
     id: 954,
     title: "山楂脯",
     group: 26,
-    expression: "0.1535"
+    expression: "C*(153/100)/1000"
   },
   {
     id: 955,
@@ -5747,7 +5778,7 @@ const foods = [
     id: 958,
     title: "月饼（桂花板栗）",
     group: 26,
-    expression: "0.1655"
+    expression: "C*(320/100)/1000"
   },
   {
     id: 959,
@@ -5777,25 +5808,25 @@ const foods = [
     id: 963,
     title: "山楂果丹皮",
     group: 26,
-    expression: "0.18304"
+    expression: "C*(189/100)/1000"
   },
   {
     id: 964,
     title: "麦维面包",
     group: 26,
-    expression: "0.189"
+    expression: "C*(189/100)/1000"
   },
   {
     id: 965,
     title: "油炸豆瓣",
     group: 26,
-    expression: "0.1944"
+    expression: "C*(194/100)/1000"
   },
   {
     id: 966,
     title: "玉米花",
     group: 26,
-    expression: "0.203"
+    expression: "C*(203/100)/1000"
   },
   {
     id: 967,
@@ -5813,7 +5844,7 @@ const foods = [
     id: 969,
     title: "黑麻香酥",
     group: 26,
-    expression: "0.2185"
+    expression: "C*(218/100)/1000"
   },
   {
     id: 970,
@@ -5837,7 +5868,7 @@ const foods = [
     id: 973,
     title: "地瓜干",
     group: 26,
-    expression: "0.22672"
+    expression: "C*(226/100)/1000"
   },
   {
     id: 974,
@@ -5867,19 +5898,19 @@ const foods = [
     id: 978,
     title: "葡萄干面包",
     group: 26,
-    expression: "0.26"
+    expression: "C*(260/100)/1000"
   },
   {
     id: 979,
     title: "雪梅",
     group: 26,
-    expression: "0.26"
+    expression: "C*(260/100)/1000"
   },
   {
     id: 980,
     title: "曲奇饼（加奶油）",
     group: 26,
-    expression: "0.263"
+    expression: "C*(263/100)/1000"
   },
   {
     id: 981,
@@ -5891,43 +5922,43 @@ const foods = [
     id: 982,
     title: "宫廷蛋糕",
     group: 26,
-    expression: "0.2672"
+    expression: "C*(267/100)/1000"
   },
   {
     id: 983,
     title: "法式卷饼",
     group: 26,
-    expression: "0.2675"
+    expression: "C*(267/100)/1000"
   },
   {
     id: 984,
     title: "米饼",
     group: 26,
-    expression: "0.268"
+    expression: "C*(268/100)/1000"
   },
   {
     id: 985,
     title: "椰圈面包",
     group: 26,
-    expression: "0.288"
+    expression: "C*(288/100)/1000"
   },
   {
     id: 986,
     title: "薯圈",
     group: 26,
-    expression: "0.288"
+    expression: "C*(288/100)/1000"
   },
   {
     id: 987,
     title: "蜜麻花",
     group: 26,
-    expression: "0.30461"
+    expression: "C*(304/100)/1000"
   },
   {
     id: 988,
     title: "鸡腿酥",
     group: 26,
-    expression: "0.3052"
+    expression: "C*(305/100)/1000"
   },
   {
     id: 989,
@@ -5957,19 +5988,19 @@ const foods = [
     id: 993,
     title: "果料面包",
     group: 26,
-    expression: "0.3475"
+    expression: "C*(347/100)/1000"
   },
   {
     id: 994,
     title: "江米条",
     group: 26,
-    expression: "0.3512"
+    expression: "C*(351/100)/1000"
   },
   {
     id: 995,
     title: "牛角包",
     group: 26,
-    expression: "0.375"
+    expression: "C*(375/100)/1000"
   },
   {
     id: 996,
@@ -5987,19 +6018,19 @@ const foods = [
     id: 998,
     title: "麻香糕",
     group: 26,
-    expression: "0.401"
+    expression: "C*(401/100)/1000"
   },
   {
     id: 999,
     title: "开口笑",
     group: 26,
-    expression: "0.4096"
+    expression: "C*(409/100)/1000"
   },
   {
     id: 1e3,
     title: "虾片",
     group: 26,
-    expression: "0.4184"
+    expression: "C*(418/100)/1000"
   },
   {
     id: 1001,
@@ -6017,7 +6048,7 @@ const foods = [
     id: 1003,
     title: "香菇片",
     group: 26,
-    expression: "0.474"
+    expression: "C*(474/100)/1000"
   },
   {
     id: 1004,
@@ -6047,13 +6078,13 @@ const foods = [
     id: 1008,
     title: "苹果脯",
     group: 26,
-    expression: "0.51"
+    expression: "C*(511/100)/1000"
   },
   {
     id: 1009,
     title: "凤尾酥",
     group: 26,
-    expression: "0.511"
+    expression: "C*(511/100)/1000"
   },
   {
     id: 1010,
@@ -6113,7 +6144,7 @@ const foods = [
     id: 1019,
     title: "麻烘糕",
     group: 26,
-    expression: "0.794"
+    expression: "C*(424/100)/1000"
   },
   {
     id: 1020,
@@ -6125,7 +6156,7 @@ const foods = [
     id: 1021,
     title: "蛋清蛋糕",
     group: 26,
-    expression: "0.8475"
+    expression: "C*(339/100)/1000"
   },
   {
     id: 1022,
@@ -6137,19 +6168,13 @@ const foods = [
     id: 1023,
     title: "早茶饼",
     group: 26,
-    expression: "0.88"
+    expression: "C*(440/100)/1000"
   },
   {
     id: 1024,
     title: "状元饼",
     group: 26,
     expression: "C*(435/100)/1000"
-  },
-  {
-    id: 1025,
-    title: "补血饼干",
-    group: 26,
-    expression: "2.2148"
   },
   {
     id: 1026,
@@ -6191,252 +6216,294 @@ const foods = [
     id: 1032,
     title: "八宝粥（同茂牌）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(46/100)/1000"
   },
   {
     id: 1033,
     title: "八宝粥（无糖，娃哈哈牌）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(45/100)/1000"
   },
   {
     id: 1034,
     title: "披萨饼",
     group: 28,
-    expression: "0.045"
+    infla_score: 0.034,
+    expression: "C*(235/100)/1000"
   },
   {
     id: 1035,
     title: "八宝粥（康师傅牌）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(81/100)/1000"
   },
   {
     id: 1036,
     title: "馄饨",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(180/100)/1000"
   },
   {
     id: 1037,
     title: "饺子（素馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(198/100)/1000"
   },
   {
     id: 1038,
     title: "麦片",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(351/100)/1000"
   },
   {
     id: 1039,
     title: "薯条（肯德基）",
     group: 28,
-    expression: "0.149"
+    infla_score: 0.034,
+    expression: "C*(350/100)/1000"
   },
   {
     id: 1040,
     title: "八宝粥（亲亲牌）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(76/100)/1000"
   },
   {
     id: 1041,
     title: "天燕麦片果仁",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(402/100)/1000"
   },
   {
     id: 1042,
     title: "法式配餐面包",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(282/100)/1000"
   },
   {
     id: 1043,
     title: "饺子（猪肉茴香馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(233/100)/1000"
   },
   {
     id: 1044,
     title: "鸡汁干脆面",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(505/100)/1000"
   },
   {
     id: 1045,
     title: "黑芝麻糊",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(408/100)/1000"
   },
   {
     id: 1046,
     title: "春卷（素馅）",
     group: 28,
-    expression: "0.2184"
+    infla_score: 0.034,
+    expression: "C*(139/100)/1000"
   },
   {
     id: 1047,
     title: "八宝粥椰树牌",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(69/100)/1000"
   },
   {
     id: 1048,
     title: "饺子（猪肉韭菜）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(250/100)/1000"
   },
   {
     id: 1049,
     title: "肉酱（海鲜鸡汁味米线）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(167/100)/1000"
   },
   {
     id: 1050,
     title: "汉堡包",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(256/100)/1000"
   },
   {
     id: 1051,
     title: "八宝粥（娃哈哈牌）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(64/100)/1000"
   },
   {
     id: 1052,
     title: "饺子（猪肉香菇馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(231/100)/1000"
   },
   {
     id: 1053,
     title: "肉酱（红烧牛肉方便面）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(200/100)/1000"
   },
   {
     id: 1054,
     title: "饺子（鸡肉蘑菇馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(186/100)/1000"
   },
   {
     id: 1055,
     title: "玉米片（即食粥）",
     group: 28,
-    expression: "0.39"
+    infla_score: 0.034,
+    expression: "C*(400/100)/1000"
   },
   {
     id: 1056,
     title: "方便面",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(472/100)/1000"
   },
   {
     id: 1057,
     title: "红烧牛肉味方便面",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(447/100)/1000"
   },
   {
     id: 1058,
     title: "猪肉白菜馅饺子",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(218/100)/1000"
   },
   {
     id: 1059,
     title: "三明治",
     group: 28,
-    expression: "0.468"
+    infla_score: 0.034,
+    expression: "C*(750/100)/1000"
   },
   {
     id: 1060,
     title: "什锦炒饭",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(188/100)/1000"
   },
   {
     id: 1061,
     title: "干酪汉堡包",
     group: 28,
-    expression: "0.47"
+    infla_score: 0.034,
+    expression: "C*(860/100)/1000"
   },
   {
     id: 1062,
     title: "鳕鱼方便面（面饼+调味料+珍料+调味油+蔬菜）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(470/100)/1000"
   },
   {
     id: 1063,
     title: "饺子（三鲜馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(240/100)/1000"
   },
   {
     id: 1064,
     title: "鸡腿汉堡",
     group: 28,
-    expression: "0.538"
+    infla_score: 0.034,
+    expression: "C*(850/100)/1000"
   },
   {
     id: 1065,
     title: "猪肉馅包子",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(227/100)/1000"
   },
   {
     id: 1066,
     title: "干酪汉堡包（普通型，夹单层肉饼，无调料酱）",
     group: 28,
-    expression: "0.632"
+    infla_score: 0.034,
+    expression: "C*(800/100)/1000"
   },
   {
     id: 1067,
     title: "鸡肉汉堡（肯德基）",
     group: 28,
-    expression: "0.73"
+    infla_score: 0.034,
+    expression: "C*(900/100)/1000"
   },
   {
     id: 1068,
     title: "饺子（猪肉芹菜馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(253/100)/1000"
   },
   {
     id: 1069,
     title: "麦片（原味奶香）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(406/100)/1000"
   },
   {
     id: 1070,
     title: "红烧牛肉方便面",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(451/100)/1000"
   },
   {
     id: 1071,
     title: "海鲜味方便面",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(451/100)/1000"
   },
   {
     id: 1072,
     title: "饺子（猪肉虾仁馅）",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(267/100)/1000"
   },
   {
     id: 1073,
     title: "玉米片",
     group: 28,
+    infla_score: 0.034,
     expression: "C*(365/100)/1000"
   },
   {
@@ -6473,7 +6540,7 @@ const foods = [
     id: 1079,
     title: "橙珍",
     group: 29,
-    expression: "0.0625"
+    expression: "C*(25/100)/1000"
   },
   {
     id: 1080,
@@ -6485,13 +6552,13 @@ const foods = [
     id: 1081,
     title: "巧克力豆奶",
     group: 29,
-    expression: "0.0975"
+    expression: "C*(97/100)/1000"
   },
   {
     id: 1082,
     title: "椰子汁饮料",
     group: 29,
-    expression: "0.102"
+    expression: "C*(102/100)/1000"
   },
   {
     id: 1083,
@@ -6515,7 +6582,7 @@ const foods = [
     id: 1086,
     title: "运动饮料",
     group: 29,
-    expression: "0.1125"
+    expression: "C*(112/100)/1000"
   },
   {
     id: 1087,
@@ -6539,7 +6606,7 @@ const foods = [
     id: 1090,
     title: "苹果汁饮料（亨氏）",
     group: 29,
-    expression: "0.125"
+    expression: "C*(212/100)/1000"
   },
   {
     id: 1091,
@@ -6557,13 +6624,13 @@ const foods = [
     id: 1093,
     title: "麦乳精",
     group: 29,
-    expression: "0.1287"
+    expression: "C*(212/100)/1000"
   },
   {
     id: 1094,
     title: "杏仁露",
     group: 29,
-    expression: "0.13708"
+    expression: "C*(300/100)/1000"
   },
   {
     id: 1095,
@@ -6575,7 +6642,7 @@ const foods = [
     id: 1096,
     title: "胡萝卜素王",
     group: 29,
-    expression: "0.1521"
+    expression: "C*(55/100)/1000"
   },
   {
     id: 1097,
@@ -6617,19 +6684,19 @@ const foods = [
     id: 1103,
     title: "可乐",
     group: 29,
-    expression: "0.2025"
+    expression: "C*(35/100)/1000"
   },
   {
     id: 1104,
     title: "冰激凌（加奶油）",
     group: 29,
-    expression: "0.211"
+    expression: "C*(250/100)/1000"
   },
   {
     id: 1105,
     title: "冰砖",
     group: 29,
-    expression: "0.2295"
+    expression: "C*(212/100)/1000"
   },
   {
     id: 1106,
@@ -6647,19 +6714,19 @@ const foods = [
     id: 1108,
     title: "娃娃头",
     group: 29,
-    expression: "0.645"
+    expression: "C*(212/100)/1000"
   },
   {
     id: 1109,
     title: "橘子晶",
     group: 29,
-    expression: "0.78"
+    expression: "C*(390/100)/1000"
   },
   {
     id: 1110,
     title: "果真饮料",
     group: 29,
-    expression: "0.814"
+    expression: "C*(250/100)/1000"
   },
   {
     id: 1111,
@@ -6696,12 +6763,6 @@ const foods = [
     title: "咖啡伴侣",
     group: 30,
     expression: "C*(554/100)/1000"
-  },
-  {
-    id: 1117,
-    title: "红花",
-    group: 30,
-    expression: "0.286"
   },
   {
     id: 1118,
@@ -6995,115 +7056,120 @@ const foods = [
     id: 1166,
     title: "麦芽糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(331/100)/1000"
   },
   {
     id: 1167,
     title: "白砂糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(400/100)/1000"
   },
   {
     id: 1168,
     title: "红糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(389/100)/1000"
   },
   {
     id: 1169,
     title: "什锦糖果",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(399/100)/1000"
   },
   {
     id: 1170,
     title: "绵白糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(396/100)/1000"
   },
   {
     id: 1171,
     title: "蜂蜜",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(321/100)/1000"
   },
   {
     id: 1172,
     title: "水晶糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(395/100)/1000"
   },
   {
     id: 1173,
     title: "奶糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(407/100)/1000"
   },
   {
     id: 1174,
     title: "充气巧克力",
     group: 32,
-    expression: "0.09"
+    infla_score: -0.024,
+    expression: "C*(527/100)/1000"
   },
   {
     id: 1175,
     title: "水果味糖",
     group: 32,
-    expression: "0.09225"
+    infla_score: -0.024,
+    expression: "C*(407/100)/1000"
   },
   {
     id: 1176,
     title: "夹心糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(494/100)/1000"
   },
   {
     id: 1177,
     title: "芝麻南糖",
     group: 32,
-    expression: "0.1022"
+    infla_score: -0.024,
+    expression: "C*(548/100)/1000"
   },
   {
     id: 1178,
     title: "果仁巧克力",
     group: 32,
-    expression: "0.1076"
+    infla_score: -0.024,
+    expression: "C*(824/100)/1000"
   },
   {
     id: 1179,
     title: "羊油",
     group: 32,
-    expression: "0.13184"
+    infla_score: -0.024,
+    expression: "C*(824/100)/1000"
   },
   {
     id: 1180,
     title: "牛奶巧克力",
     group: 32,
-    expression: "0.13575"
-  },
-  {
-    id: 1181,
-    title: "米花糖",
-    group: 32,
-    expression: "0.192"
+    infla_score: -0.024,
+    expression: "C*(575/100)/1000"
   },
   {
     id: 1182,
     title: "牛奶糖",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(435/100)/1000"
   },
   {
     id: 1183,
     title: "巧克力",
     group: 32,
+    infla_score: -0.024,
     expression: "C*(586/100)/1000"
-  },
-  {
-    id: 1184,
-    title: "麻子籽",
-    group: 33,
-    expression: "0.0062"
   },
   {
     id: 1185,
@@ -7121,7 +7187,7 @@ const foods = [
     id: 1187,
     title: "豆油",
     group: 33,
-    expression: "0.0575"
+    expression: "C*(900/100)/1000"
   },
   {
     id: 1188,
@@ -7133,13 +7199,13 @@ const foods = [
     id: 1189,
     title: "色拉油",
     group: 33,
-    expression: "0.899"
+    expression: "C*(900/100)/1000"
   },
   {
     id: 1190,
     title: "花生油",
     group: 33,
-    expression: "1.44739"
+    expression: "C*(900/100)/1000"
   },
   {
     id: 1191,
@@ -7151,259 +7217,301 @@ const foods = [
     id: 1192,
     title: "牛油",
     group: 34,
-    expression: "0.1336"
+    expression: "C*(835/100)/1000"
   },
   {
     id: 1193,
     title: "豆瓣辣酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(59/100)/1000"
   },
   {
     id: 1194,
     title: "醋",
     group: 35,
-    expression: "0.0031"
+    infla_score: 0.026,
+    expression: "C*(30/100)/1000"
   },
   {
     id: 1195,
     title: "腐乳（白，王致和牌）【酱豆腐】",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(153/100)/1000"
   },
   {
     id: 1196,
     title: "香油辣酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(54/100)/1000"
   },
   {
     id: 1197,
     title: "腐乳（臭）【臭豆腐】",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(130/100)/1000"
   },
   {
     id: 1198,
     title: "腐乳（白，酱豆腐）",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(133/100)/1000"
   },
   {
     id: 1199,
     title: "腐乳（臭，臭豆腐）",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(151/100)/1000"
   },
   {
     id: 1200,
     title: "辣椒酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(31/100)/1000"
   },
   {
     id: 1201,
     title: "香辣味腐乳",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(158/100)/1000"
   },
   {
     id: 1202,
     title: "酱油",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(63/100)/1000"
   },
   {
     id: 1203,
     title: "甜面酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(136/100)/1000"
   },
   {
     id: 1204,
     title: "豆瓣酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(178/100)/1000"
   },
   {
     id: 1205,
     title: "牛肉辣瓣酱",
     group: 35,
-    expression: "0.0381"
+    infla_score: 0.026,
+    expression: "C*(129/100)/1000"
   },
   {
     id: 1206,
     title: "腐乳（红，酱豆腐）",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(204/100)/1000"
   },
   {
     id: 1207,
     title: "大酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(131/100)/1000"
   },
   {
     id: 1208,
     title: "五香豆豉",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(259/100)/1000"
   },
   {
     id: 1209,
     title: "麻辣酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(135/100)/1000"
   },
   {
     id: 1210,
     title: "番茄沙司",
     group: 35,
-    expression: "0.0672"
+    infla_score: 0.026,
+    expression: "C*(150/100)/1000"
   },
   {
     id: 1211,
     title: "柠檬酱",
     group: 35,
+    infla_score: 0.026,
     expression: "C*(283/100)/1000"
   },
   {
     id: 1212,
     title: "芝麻酱",
     group: 35,
-    expression: "0.0927"
+    infla_score: 0.026,
+    expression: "C*(630/100)/1000"
   },
   {
     id: 1213,
     title: "黄豆酱油",
     group: 35,
-    expression: "0.1011"
+    infla_score: 0.026,
+    expression: "C*(38/100)/1000"
   },
   {
     id: 1214,
     title: "花生酱",
     group: 35,
-    expression: "0.1485"
+    infla_score: 0.026,
+    expression: "C*(600/100)/1000"
   },
   {
     id: 1215,
     title: "草莓酱",
     group: 35,
-    expression: "0.33625"
+    infla_score: 0.026,
+    expression: "C*(200/100)/1000"
   },
   {
     id: 1216,
     title: "辣椒粉",
     group: 36,
+    infla_score: -0.031,
     expression: "C*(203/100)/1000"
   },
   {
     id: 1217,
     title: "花椒",
     group: 36,
+    infla_score: -0.031,
     expression: "C*(258/100)/1000"
   },
   {
     id: 1218,
     title: "全料蒸肉粉",
     group: 36,
+    infla_score: -0.031,
     expression: "C*(342/100)/1000"
   },
   {
     id: 1219,
     title: "咖喱",
     group: 36,
-    expression: "0.2075"
+    infla_score: -0.031,
+    expression: "C*(300/100)/1000"
   },
   {
     id: 1220,
     title: "胡椒粉",
     group: 36,
-    expression: "0.62475"
+    infla_score: -0.031,
+    expression: "C*(351/100)/1000"
   },
   {
     id: 1221,
     title: "石榴",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(63/100)/1000"
   },
   {
     id: 1222,
     title: "红粉皮石榴",
     group: 37,
-    expression: "0.051072"
+    infla_score: 0.024,
+    expression: "C*(63/100)/1000"
   },
   {
     id: 1223,
     title: "葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(43/100)/1000"
   },
   {
     id: 1224,
     title: "无花果",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(59/100)/1000"
   },
   {
     id: 1225,
     title: "马奶子葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(40/100)/1000"
   },
   {
     id: 1226,
     title: "猕猴桃",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(56/100)/1000"
   },
   {
     id: 1227,
     title: "红提子葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(52/100)/1000"
   },
   {
     id: 1228,
     title: "荷柿",
     group: 37,
-    expression: "0.08379"
+    infla_score: 0.024,
+    expression: "C*(52/100)/1000"
   },
   {
     id: 1229,
     title: "巨峰葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(50/100)/1000"
   },
   {
     id: 1230,
     title: "葡萄干",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(341/100)/1000"
   },
   {
     id: 1231,
     title: "紫葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(43/100)/1000"
   },
   {
     id: 1232,
     title: "青皮石榴",
     group: 37,
-    expression: "0.117425"
+    infla_score: 0.024,
+    expression: "C*(50/100)/1000"
   },
   {
     id: 1233,
     title: "玫瑰香葡萄",
     group: 37,
+    infla_score: 0.024,
     expression: "C*(50/100)/1000"
   },
   {
     id: 1234,
     title: "柿饼",
     group: 37,
-    expression: "0.2425"
+    infla_score: 0.024,
+    expression: "C*(250/100)/1000"
   },
   {
     id: 1235,
@@ -7427,7 +7535,7 @@ const foods = [
     id: 1238,
     title: "葡萄柚",
     group: 38,
-    expression: "0.02409"
+    expression: "C*(43/100)/1000"
   },
   {
     id: 1239,
@@ -7454,12 +7562,6 @@ const foods = [
     expression: "C*(45/100)/1000"
   },
   {
-    id: 1243,
-    title: "四川红橘",
-    group: 38,
-    expression: "0.0624"
-  },
-  {
     id: 1244,
     title: "早橘",
     group: 38,
@@ -7482,12 +7584,6 @@ const foods = [
     title: "柑橘（X）",
     group: 38,
     expression: "C*(51/100)/1000"
-  },
-  {
-    id: 1248,
-    title: "",
-    group: 0,
-    expression: ""
   }
 ];
 const cusSelects = () => "../../../components/cus-selects-fan/cus-selects-fan.js";
@@ -7499,64 +7595,135 @@ const _sfc_main = {
     return {
       //根据自己需求获得的下拉数据，如果数据不是{label:'',value:''}结构的就需要起一个别名来代指一下，就需要valueType
       selectList: foods,
+      originSelectList: JSON.parse(JSON.stringify(foods)),
       alias: {
         //别名来代指一下
         label: "title",
         value: "id"
       },
       foodsList: [{
+        key: 0,
         weightVal: "",
         nameVal: "",
-        expression: ""
+        infla_score: 0,
+        expression: "",
+        result: ""
       }],
       showIcon: false,
-      scoreList: []
+      closeOptions: false
     };
   },
   mounted() {
   },
   methods: {
     toScore() {
-      let sum = 0;
-      for (var i = 0; i < this.scoreList.length; i++) {
-        sum += this.scoreList[i];
+      let isEemptyVal = [];
+      this.foodsList.forEach((item) => {
+        isEemptyVal.push(item.nameVal == "", item.weightVal == "");
+      });
+      if (isEemptyVal.includes(true)) {
+        common_vendor.index.showToast({
+          title: "未填写完，无法评分",
+          icon: "none",
+          duration: 2e3
+        });
+      } else {
+        let totalScore = 0;
+        this.foodsList.forEach((item) => {
+          let num = Number(item.result);
+          totalScore += num;
+          console.log("solo分数", num);
+        });
+        totalScore = totalScore * 1e3;
+        totalScore = this.fixed(totalScore, 4);
+        console.log("分数", totalScore);
+        if (isNaN(totalScore)) {
+          totalScore = "无";
+        }
+        common_vendor.index.switchTab({
+          url: "/pages/score/index"
+        });
+        common_vendor.index.setStorageSync("totalScore", totalScore);
       }
-      common_vendor.index.switchTab({
-        url: "/pages/score/index"
+    },
+    handleNumber(index, e) {
+      let val = e.replace(/[^\d]/g, "");
+      this.$set(this.foodsList, index, {
+        weightVal: val
       });
     },
     inputWeight(index, e) {
-      if (e.detail.value) {
-        let score = this.foodsList[index].expression.replace("C", e.detail.value);
-        score = this.fixed(eval(score));
-        console.log("----", Number(score));
+      if (this.foodsList[index].weightVal) {
+        let score = "";
+        let caculateResult = "";
+        if (!e.detail && Number(e)) {
+          score = this.foodsList[index].expression.replace("C", e);
+        } else if (e.detail.value && Number(e.detail.value)) {
+          score = this.foodsList[index].expression.replace("C", e.detail.value);
+        } else {
+          common_vendor.index.showToast({
+            title: "请输入数字",
+            icon: "none",
+            duration: 2e3
+          });
+        }
+        caculateResult = this.fixed(this.caculateParse(this.tokenCode(score)), 4);
+        if (this.foodsList[index].infla_score) {
+          caculateResult = caculateResult * this.foodsList[index].infla_score;
+        }
+        score = this.fixed(caculateResult, 4);
+        this.foodsList[index].result = score;
       }
     },
-    changeSelect(index2, foodId) {
+    changeSelect(index, foodId) {
       let foodObj = this.selectList.find((item) => item.id == foodId);
-      this.foodsList[index2].nameVal = foodObj.title;
-      this.foodsList[index2].expression = foodObj.expression;
-      console.log("1111", this.foodsList[index2].expression);
+      this.foodsList[index].nameVal = foodObj.title;
+      this.foodsList[index].expression = foodObj.expression;
+      this.foodsList[index].infla_score = foodObj.infla_score;
+      this.inputWeight(index, this.foodsList[index].weightVal);
     },
-    fixed(num) {
-      let dig = Math.pow(10, 4);
+    inputSelect(index, e) {
+      this.inputCon = e;
+    },
+    closeSelect(index, e) {
+      this.closeOptions = e;
+      let isExist = this.selectList.find((item) => item.title == this.inputCon);
+      if (this.inputCon && !isExist && !this.closeOptions) {
+        common_vendor.index.showToast({
+          title: "无此食物，请重新选择",
+          icon: "none",
+          duration: 2e3
+        });
+      } else if (isExist) {
+        this.changeSelect(index, isExist.id);
+      }
+      console.log("3333", this.foodsList[index].nameVal);
+    },
+    fixed(num, bit) {
+      let dig = Math.pow(10, bit);
       return Math.round(num * dig) / dig;
     },
     addFoods() {
       this.showIcon = true;
-      this.foodsList.push({
+      let arrlength = this.foodsList.length;
+      this.foodsList.splice(arrlength, 0, {
+        key: arrlength,
         weightVal: "",
         nameVal: "",
+        infla_score: 0,
         expression: ""
       });
     },
-    deleteFoods(index2) {
-      this.foodsList.splice(index2, 1);
+    deleteFoods(index) {
+      this.foodsList.splice(index, 1);
       if (this.foodsList.length == 1) {
         this.showIcon = false;
       }
     },
-    calculateFormula(tokens, operator) {
+    // 用JS编写简单的脚本语言(四则运算)
+    // 参考：https://www.jianshu.com/p/c983f2df9d56 
+    // 此方法计算得出公式的结果
+    caculateParse(tokens, operator) {
       let operatorStack = [];
       let numStack = [];
       let precedence = {
@@ -7611,6 +7778,7 @@ const _sfc_main = {
         ss = ss + (i == ii ? "^" : " ");
       return str + "\n" + ss;
     },
+    // 此方法将公式的每个数字或者符号分隔在一个数组中
     // 格式过滤与语法检测
     tokenCode(str) {
       let tokens = [];
@@ -7634,17 +7802,17 @@ const _sfc_main = {
               if (space)
                 throw new Error(`数字格式不正确  
 索引 ${i},字符 ${currentChar} 
-${printErrStr(str, i)}`);
+${this.printErrStr(str, i)}`);
               token.value += currentChar;
             } else if (currentChar === ".") {
               if (space)
                 throw new Error(`数字格式不正确  
 索引 ${i},字符 ${currentChar} 
-${printErrStr(str, i)}`);
+${this.printErrStr(str, i)}`);
               if (pot)
                 throw new Error(`小数点格式不正确  
 索引 ${i},字符 ${currentChar} 
-${printErrStr(str, i)}`);
+${this.printErrStr(str, i)}`);
               token.value += currentChar;
               pot = true;
             } else if (currentChar === " ") {
@@ -7670,7 +7838,7 @@ ${printErrStr(str, i)}`);
           else {
             throw new Error(`符号格式不正确 
 索引 ${i},字符 ${currentChar} 
- ${printErrStr(str, i)}`);
+ ${this.printErrStr(str, i)}`);
           }
         } else if (currentChar === "(" && prev.value != ")" && !prev.prefix) {
           token = {
@@ -7684,13 +7852,15 @@ ${printErrStr(str, i)}`);
             value: currentChar
           };
           if (bract.pop() == void 0)
-            throw new Error(`括号不匹配  
+            throw new Error(
+              `括号不匹配  
 索引 ${i},字符 ${currentChar} 
- ${printErrStr(str, i)}`);
+ ${this.printErrStr(str, i)}`
+            );
         } else {
           throw new Error(`无法识别的字符 
 索引 ${i},字符 ${currentChar} 
- ${printErrStr(str, i)}`);
+ ${this.printErrStr(str, i)}`);
         }
         tokens.push(token);
         prev = token;
@@ -7712,36 +7882,38 @@ if (!Math) {
 }
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
-    a: common_vendor.f($data.foodsList, (item, index2, i0) => {
+    a: common_vendor.f($data.foodsList, (item, index, i0) => {
       return {
-        a: common_vendor.o(($event) => $options.deleteFoods(index2), index2),
-        b: common_vendor.o((e2) => $options.changeSelect(index2, e2), index2),
-        c: "9b4f7924-0-" + i0,
-        d: common_vendor.o(($event) => item.nameVal = $event, index2),
-        e: common_vendor.p({
+        a: common_vendor.o(($event) => $options.deleteFoods(index), item.key),
+        b: common_vendor.o((e) => $options.changeSelect(index, e), item.key),
+        c: common_vendor.o((e) => $options.closeSelect(index, e), item.key),
+        d: common_vendor.o((e) => $options.inputSelect(index, e), item.key),
+        e: "9b4f7924-0-" + i0,
+        f: common_vendor.o(($event) => item.nameVal = $event, item.key),
+        g: common_vendor.p({
           filterable: true,
           searchType: 1,
           placeholder: "请输入关键字",
+          noDataText: "无匹配项",
           valueType: $data.alias,
           data: $data.selectList,
           modelValue: item.nameVal
         }),
-        f: common_vendor.o((e2) => $options.inputWeight(index2, e2), index2),
-        g: "9b4f7924-1-" + i0,
-        h: common_vendor.o(($event) => item.weightVal = $event, index2),
-        i: common_vendor.p({
+        h: common_vendor.o((e) => $options.inputWeight(index, e), item.key),
+        i: "9b4f7924-1-" + i0,
+        j: common_vendor.o(($event) => item.weightVal = $event, item.key),
+        k: common_vendor.p({
           trim: "all",
           placeholder: "请输入重量",
           type: "number",
           modelValue: item.weightVal
         }),
-        j: index2
+        l: item.key
       };
     }),
     b: $data.showIcon,
-    c: common_vendor.t(_ctx.score),
-    d: common_vendor.o((...args) => $options.addFoods && $options.addFoods(...args)),
-    e: common_vendor.o((...args) => $options.toScore && $options.toScore(...args))
+    c: common_vendor.o((...args) => $options.addFoods && $options.addFoods(...args)),
+    d: common_vendor.o((...args) => $options.toScore && $options.toScore(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-9b4f7924"], ["__file", "D:/1前端/uniapp/Healthy-diet/pages/index/record/record.vue"]]);

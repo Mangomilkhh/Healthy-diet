@@ -1,6 +1,6 @@
 <template>
 	<view class="what_box">
-		<image src="../../../static/recommend/？.png" mode="" class="what" @click="toQuestion"></image>
+		<image src="../../../static/recommend/？.png" mode="" class="what"></image>
 	</view>
 	<view class="question">
 		<text style="font-size: 24px;display: block;margin-bottom: 40rpx;"><text style="background-color: #5bff5b8a;">绿色</text>

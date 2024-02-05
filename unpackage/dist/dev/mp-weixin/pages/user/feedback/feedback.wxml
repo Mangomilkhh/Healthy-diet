@@ -1,1 +1,1 @@
-<view class="feedback_box data-v-e9b0a919"><view class="data-v-e9b0a919" style="font-size:20px;margin-bottom:10px">我的意见：</view><view class="feedback data-v-e9b0a919"><textarea class="data-v-e9b0a919"></textarea></view><button class="btn data-v-e9b0a919">提交</button></view>
+<view class="feedback_box data-v-e9b0a919"><view class="data-v-e9b0a919" style="font-size:20px;margin-bottom:10px">我的意见：</view><view class="feedback data-v-e9b0a919"><textarea class="data-v-e9b0a919"></textarea></view><button class="btn data-v-e9b0a919" bindtap="{{a}}">提交</button></view>

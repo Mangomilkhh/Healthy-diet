@@ -6,15 +6,20 @@
   margin: 50px 14px 25px;
 }
 .content.data-v-4030d3be {
-  margin: 0px 29px 0px;
+  margin: 0px 20px 0px;
 }
 .score.data-v-4030d3be {
-  position: relative;
-  top: -170px;
-  left: 46px;
-  font-size: 23px;
+  font-size: 25px;
+  margin: 40rpx;
+  padding: 60rpx 50rpx;
+  border: 5px dashed #41a863;
+  border-radius: 6px;
+  text-align: center;
 }
 .score .num.data-v-4030d3be {
-  font-size: 45px;
+  font-size: 48px;
   color: orangered;
+  display: block;
+  margin: 10rpx;
+  word-wrap: break-word;
 }

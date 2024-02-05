@@ -28,7 +28,7 @@
 		</view>
 
 		<view style="margin: 10px;">
-		<uni-grid :column="1" :highlight="true" @change="change" :show-border="false">
+		<uni-grid :column="1" :highlight="true" :show-border="false">
 			<uni-grid-item v-for="(item, index) in homeList2" :index="index" :key="index" class="bg">
 				<view class="grid-item-box" @click="toEstimate(item)">
 					<image :style="{
