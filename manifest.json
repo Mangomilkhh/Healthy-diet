@@ -1,5 +1,5 @@
 {
-    "name" : "uni-ui",
+    "name" : "抗炎微信小程序",
     "appid" : "__UNI__F0A1A81",
     "description" : "",
     "versionName" : "1.0.0",
@@ -56,5 +56,10 @@
         },
         "usingComponents" : true
     },
-    "vueVersion" : "3"
+    "vueVersion" : "3",
+    "h5" : {
+        "router" : {
+            "base" : "/h5"
+        }
+    }
 }
