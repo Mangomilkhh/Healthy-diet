@@ -14,10 +14,10 @@ const _sfc_main = {
     this.totalScore = localScore;
     if (this.totalScore > 0) {
       this.state = "促炎饮食，";
-      this.health = "有利于健康。";
+      this.health = "不利于健康。";
     } else if (this.totalScore < 0) {
       this.state = "抗炎饮食，";
-      this.health = "不利于健康。";
+      this.health = "有利于健康。";
     } else if (this.totalScore == 0) {
       this.state = "既不是抗炎饮食也不是促炎饮食。";
       this.health = "";

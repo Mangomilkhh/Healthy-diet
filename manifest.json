@@ -51,15 +51,22 @@
     "mp-weixin" : {
         /* 小程序特有相关 */
         "appid" : "wx017b64b99ceba1c5",
+        // 云函数路径
+        "cloudfunctionRoot" : "cloudfunctions/",
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "secureNetwork" : {
+            "enable" : false
+        }
     },
     "vueVersion" : "3",
     "h5" : {
         "router" : {
-            "base" : "/Healthy-diet/"
-        }
+            "base" : "/healthy-diet-h5/",
+            "mode" : "hash"
+        },
+        "title" : "抗炎小程序"
     }
 }

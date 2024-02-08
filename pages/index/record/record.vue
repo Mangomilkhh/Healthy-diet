@@ -95,9 +95,12 @@
 				} else {
 					let totalScore = 0;
 					this.foodsList.forEach((item) => {
+						if(!item.infla_score){
+							item.result = 0;
+						}
+						// console.log('solo分数', item)
 						let num = Number(item.result);
 						totalScore += num;
-						console.log('solo分数', num)
 					})
 					totalScore = totalScore * 1000
 					totalScore = this.fixed(totalScore, 4)

@@ -29,16 +29,15 @@
 		// 应用程序进入前台时触发，在此方法中可以加载页面数据，刷新页面等操作
 		onShow() {
 			let localScore = uni.getStorageSync("totalScore");
-			// console.log('8888', localScore)
 			// isNaN(localScore) ? '无' : 
 			this.totalScore = localScore; //取值
-			// 促炎因子可以促进炎症反应，增强机体的免疫功能，促进新陈代谢，有助于身体的健康。
+
 			if (this.totalScore > 0) {
 				this.state = '促炎饮食，';
-				this.health = '有利于健康。';
+				this.health = '不利于健康。';
 			} else if (this.totalScore < 0) {
 				this.state = '抗炎饮食，'
-				this.health = '不利于健康。';
+				this.health = '有利于健康。';
 			} else if (this.totalScore == 0) {
 				this.state = '既不是抗炎饮食也不是促炎饮食。'
 				this.health = '';

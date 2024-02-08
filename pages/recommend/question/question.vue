@@ -29,7 +29,7 @@
 
 <style>
 	.question {
-		border: 2px solid #a7ffcc;
+		border: 2px solid #41a863d4;
 		margin: 50rpx;
 		padding: 65rpx;
 		border-radius: 5%;

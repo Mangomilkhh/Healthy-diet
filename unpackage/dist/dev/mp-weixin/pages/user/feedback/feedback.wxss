@@ -4,15 +4,10 @@
   margin: 30px 30px;
 }
 .feedback.data-v-e9b0a919 {
-  border: 2px solid #a7ffcc;
+  border: 2px solid #41a863d4;
   box-shadow: 3px 3px 6px 1px #d3d3d3;
   border-radius: 2%;
   padding: 15rpx;
-}
-.data-v-e9b0a919 uni-textarea {
-  width: 100%;
-  height: 800rpx;
-  background: #fff;
 }
 .btn.data-v-e9b0a919 {
   margin-top: 100rpx;

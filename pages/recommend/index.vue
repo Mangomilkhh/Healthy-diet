@@ -141,7 +141,7 @@
 <style lang="scss" scoped>
 	.recommend-bg {
 		background-color: #fff;
-		// border: 2px solid #a7ffcc;
+		// border: 2px solid #41a863d4;
 		margin: 10px;
 		padding: 10px;
 		border-radius: 5%;

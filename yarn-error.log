@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add emails-com
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\VS Code\bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Git\cmd;F:\service wx\微信web开发者工具\dll;C:\Users\90804\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\90804\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1539:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:953:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:734:12)
+
+npm manifest: 
+  {
+    "name": "healthy-diet",
+    "version": "1.0.0",
+    "description": "Mild inflammation butler WeChat Mini Program",
+    "main": "main.js",
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Mangomilkhh/Healthy-diet.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Mangomilkhh/Healthy-diet/issues"
+    },
+    "homepage": "https://github.com/Mangomilkhh/Healthy-diet#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

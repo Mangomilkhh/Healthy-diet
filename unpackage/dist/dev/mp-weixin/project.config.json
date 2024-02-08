@@ -20,8 +20,9 @@
   "compileType": "miniprogram",
   "libVersion": "3.2.4",
   "appid": "wx017b64b99ceba1c5",
-  "projectname": "uni-ui",
+  "projectname": "抗炎微信小程序",
   "condition": {},
+  "cloudfunctionRoot": "cloudfunctions/",
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

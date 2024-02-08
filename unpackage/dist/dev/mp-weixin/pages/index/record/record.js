@@ -7630,9 +7630,11 @@ const _sfc_main = {
       } else {
         let totalScore = 0;
         this.foodsList.forEach((item) => {
+          if (!item.infla_score) {
+            item.result = 0;
+          }
           let num = Number(item.result);
           totalScore += num;
-          console.log("solo分数", num);
         });
         totalScore = totalScore * 1e3;
         totalScore = this.fixed(totalScore, 4);
