@@ -62,6 +62,14 @@
 			}
 		},
 		{
+			"path" : "pages/user/knowledge/knowledge",
+			"style" : 
+			{
+				"navigationBarTitleText" : "营养知识栏目",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
 			"path" : "pages/recommend/question/question",
 			"style" : 
 			{

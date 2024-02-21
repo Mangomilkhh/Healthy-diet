@@ -7,7 +7,7 @@
 			<!-- <button v-show="!user_img&&!user_name" class="button" @click="get_user">授权登录</button> -->
 		</view>
 		<uni-list>
-			<uni-list-item title="营养知识" showArrow thumb="/static/user/u1.png" thumb-size="lg" link/>
+			<uni-list-item title="营养知识" showArrow thumb="/static/user/u1.png" thumb-size="lg" @click="toKnowledge" link/>
 			<uni-list-item title="评价与反馈" showArrow thumb="/static/user/u2.png" thumb-size="lg" @click="toFeedback" link/>
 		</uni-list>
 	</view>
@@ -41,6 +41,11 @@
 			toFeedback() {
 				uni.navigateTo({
 					url: '/pages/user/feedback/feedback'
+				})
+			},
+			toKnowledge(){
+				uni.navigateTo({
+					url: '/pages/user/knowledge/knowledge'
 				})
 			}
 		}
