@@ -4,7 +4,7 @@
 		<view id='myLogin'>
 			<image id='myIcon' :src='user_img'></image>
 			<text id='nickName'>{{ user_name }}</text>
-			<button v-show="!user_img&&!user_name" class="button" @click="get_user">授权登录</button>
+			<!-- <button v-show="!user_img&&!user_name" class="button" @click="get_user">授权登录</button> -->
 		</view>
 		<uni-list>
 			<uni-list-item title="营养知识" showArrow thumb="/static/user/u1.png" thumb-size="lg" link/>

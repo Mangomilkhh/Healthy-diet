@@ -22,7 +22,7 @@ exports.main = async (event, context) => {
 	//event为客户端上传的参数
   let transporter = nodemailer.createTransport(config);
   const content = event.content
-  const from_name = event.from_name
+  // const from_name = event.from_name
   // 创建一个邮件对象
   var mail = {
     // 发件人

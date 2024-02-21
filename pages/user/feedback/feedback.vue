@@ -9,12 +9,12 @@
 		<view class="feedback">
 			<textarea v-model="message" placeholder="请留下您的意见"></textarea>
 		</view>
-		<button class="btn" @click="sendEmail">提交</button>
+		<button class="btn" @click="submit">提交</button>
 	</view>
 </template>
 
 <!--
- 
+ https://zhuanlan.zhihu.com/p/147673602
  第一个参数：你的电子邮件的ID   service_x6dnloj
  第二个参数：TEMPLATE_ID 来自你的apikey文件     template_uamuphk
  第三个参数：表单提交中的事件对象e
@@ -71,8 +71,8 @@
 				uniCloud.callFunction({
 						name: 'sendMail',
 						data: {
-							content: this.message,
-							from_name: this.from_name,
+							content: '用户' + this.from_name +'反馈：'+ this.message,
+							// from_name: this.from_name,
 						}
 					})
 					.then(res => {

@@ -7245,7 +7245,7 @@ class v {
 function I(e2) {
   return e2 && "string" == typeof e2 ? JSON.parse(e2) : e2;
 }
-const S = true, b = "mp-weixin", A = I([]), P = b, T = I('{\n    "address": [\n        "127.0.0.1",\n        "192.168.3.6"\n    ],\n    "debugPort": 9000,\n    "initialLaunchType": "remote",\n    "servePort": 7000,\n    "skipFiles": [\n        "<node_internals>/**",\n        "F:/HBuilderX/plugins/unicloud/**/*.js"\n    ]\n}\n'), C = I('[{"provider":"aliyun","spaceName":"lyx-space","spaceId":"mp-407ff36a-90c3-47f8-b439-b4919f0ef8e9","clientSecret":"4oYc64WvjaUnuqiqhzvKzw=="}]') || [];
+const S = true, b = "mp-weixin", A = I([]), P = b, T = I('{\n    "address": [\n        "127.0.0.1",\n        "10.0.85.2",\n        "192.168.3.6"\n    ],\n    "debugPort": 9000,\n    "initialLaunchType": "remote",\n    "servePort": 7000,\n    "skipFiles": [\n        "<node_internals>/**",\n        "F:/HBuilderX/plugins/unicloud/**/*.js"\n    ]\n}\n'), C = I('[{"provider":"aliyun","spaceName":"lyx-space","spaceId":"mp-407ff36a-90c3-47f8-b439-b4919f0ef8e9","clientSecret":"4oYc64WvjaUnuqiqhzvKzw=="}]') || [];
 let O = "";
 try {
   O = "__UNI__F0A1A81";

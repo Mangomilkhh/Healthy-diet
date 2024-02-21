@@ -43,8 +43,8 @@ const _sfc_main = {
       common_vendor.Ws.callFunction({
         name: "sendMail",
         data: {
-          content: this.message,
-          from_name: this.from_name
+          content: "用户" + this.from_name + "反馈：" + this.message
+          // from_name: this.from_name,
         }
       }).then((res) => {
         console.log("8888", res);
@@ -70,7 +70,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.o(($event) => $data.from_name = $event.detail.value),
     c: $data.message,
     d: common_vendor.o(($event) => $data.message = $event.detail.value),
-    e: common_vendor.o((...args) => $options.sendEmail && $options.sendEmail(...args))
+    e: common_vendor.o((...args) => $options.submit && $options.submit(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-e9b0a919"], ["__file", "D:/1前端/uniapp/Healthy-diet/pages/user/feedback/feedback.vue"]]);

@@ -45,17 +45,15 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: $data.user_img,
     b: common_vendor.t($data.user_name),
-    c: !$data.user_img && !$data.user_name,
-    d: common_vendor.o((...args) => $options.get_user && $options.get_user(...args)),
-    e: common_vendor.p({
+    c: common_vendor.p({
       title: "营养知识",
       showArrow: true,
       thumb: "/static/user/u1.png",
       ["thumb-size"]: "lg",
       link: true
     }),
-    f: common_vendor.o($options.toFeedback),
-    g: common_vendor.p({
+    d: common_vendor.o($options.toFeedback),
+    e: common_vendor.p({
       title: "评价与反馈",
       showArrow: true,
       thumb: "/static/user/u2.png",
