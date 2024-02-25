@@ -1,7 +1,6 @@
 <template>
 	<view>
-		<image src="../../static/doctor.png" mode="" class="doctor"></image>
-		<!-- <image src="../../static/对话框.png" mode="" class="content"></image> -->
+		<image src="https://www.freeimg.cn/i/2024/02/24/65d9f7422975f.png" mode="" class="doctor"></image>
 
 		<view class="score">
 			<text>您的膳食炎症评分为</text>

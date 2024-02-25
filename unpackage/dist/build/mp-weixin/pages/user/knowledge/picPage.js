@@ -1,0 +1,1 @@
+"use strict";const t=require("../../../common/vendor.js"),e={data:()=>({picData:{}}),onLoad(e){const a=JSON.parse(decodeURIComponent(e.data));t.index.setNavigationBarTitle({title:a.title}),this.picData=a}};const a=t._export_sfc(e,[["render",function(t,e,a,i,n,o){return{a:n.picData.img}}]]);wx.createPage(a);

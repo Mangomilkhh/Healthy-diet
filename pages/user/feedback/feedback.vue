@@ -10,6 +10,9 @@
 			<textarea v-model="message" placeholder="请留下您的意见"></textarea>
 		</view>
 		<button class="btn" @click="submit">提交</button>
+		<!-- <view>
+			{{ returnInfo }}
+		</view> -->
 	</view>
 </template>
 
@@ -30,6 +33,7 @@
 				message: '',
 				from_name: '',
 				reply_to: '哈哈哈',
+				returnInfo:''
 			}
 		},
 		methods: {
@@ -73,10 +77,11 @@
 						data: {
 							content: '用户' + this.from_name +'反馈：'+ this.message,
 							// from_name: this.from_name,
-						}
+						},
 					})
 					.then(res => {
 						console.log('8888',res)
+						// this.returnInfo = res;
 						if (res.success === true) {
 							uni.showToast({
 								title: '成功发送评价！',

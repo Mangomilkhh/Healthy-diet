@@ -2,7 +2,7 @@
 	<view class="record_box" v-for="(item,index) in foodsList" :key="item.key">
 		<icon v-show="showIcon" class="record_icon" type="cancel" size="18" color="#9e9e9e" @click="deleteFoods(index)" />
 		<view class="name_box">
-			<image src="../../../static/home/record/name.png" mode=""></image>
+			<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02de2e.png" mode=""></image>
 			<view>食物名称：
 				<cus-selects v-model="item.nameVal" :filterable='true' :searchType='1' placeholder="请输入关键字"
 					@change="e=>changeSelect(index, e)" noDataText="无匹配项" @close="e=>closeSelect(index, e)"
@@ -15,7 +15,7 @@
 		</view>
 
 		<view class="weight_box">
-			<image src="../../../static/home/record/weight.png" mode=""></image>
+			<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02df63.png" mode=""></image>
 			<view>食物重量：
 				<view style="width: 470rpx;display: flex;">
 					<uni-easyinput trim="all" v-model="item.weightVal" placeholder="请输入重量" type="number"

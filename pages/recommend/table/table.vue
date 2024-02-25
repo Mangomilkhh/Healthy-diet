@@ -44,11 +44,11 @@ export default {
 				title: data.table_title,
 			})
 			
-			console.log('4444',data.navigator)
+			// console.log('4444',data.navigator)
 			this.tableData.forEach((item)=>{
 				if(item.foodType == data.navigator){
 					this.foodDatas = item.foodList
-					console.log('555',item)
+					// console.log('555',item)
 				}
 			})
 	},

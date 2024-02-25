@@ -49,17 +49,20 @@
     "quickapp" : {},
     /* 快应用特有相关 */
     "mp-weixin" : {
-        /* 小程序特有相关 */
-        "appid" : "wx017b64b99ceba1c5",
+        "appid" : "wx6b6cc920344d3375",
         // 云函数路径
         "cloudfunctionRoot" : "cloudfunctions/",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
         },
         "usingComponents" : true,
         "secureNetwork" : {
             "enable" : false
-        }
+        },
+        "lazyCodeLoading" : "requiredComponents"
     },
     "vueVersion" : "3",
     "h5" : {

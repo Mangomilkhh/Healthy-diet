@@ -16,7 +16,7 @@
 			<uni-grid-item>
 				<view class="grid-item-box">
 					<image class="what" :style="{
-				'width':70 + 'rpx', 'height':90 + 'rpx'}" src="../../static/recommend/？.png" />
+				'width':70 + 'rpx', 'height':90 + 'rpx'}" src="https://www.freeimg.cn/i/2024/02/24/65d9f2d0cc0ce.png" />
 					<text class="text">说明</text>
 				</view>
 			</uni-grid-item>
@@ -30,7 +30,7 @@
 		data() {
 			return {
 				list: [{
-						url: '/static/recommend/r1.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2d0bcea8.png',
 						text: '谷薯类',
 						badge: '0',
 						type: "primary",
@@ -41,7 +41,7 @@
 						table_title: '谷薯类及制品'
 					},
 					{
-						url: '/static/recommend/r2.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2d0bce7a.png',
 						text: '蔬菜类',
 						badge: '1',
 						type: "success",
@@ -52,7 +52,7 @@
 						table_title: '蔬菜类及制品'
 					},
 					{
-						url: '/static/recommend/r3.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2d0bcf47.png',
 						text: '水果类',
 						badge: '99',
 						type: "warning",
@@ -63,7 +63,7 @@
 						table_title: '水果类及制品'
 					},
 					{
-						url: '/static/recommend/r4.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2d0bd69f.png',
 						text: '畜肉类',
 						badge: '2',
 						type: "error",
@@ -74,7 +74,7 @@
 						table_title: '畜肉类及制品'
 					},
 					{
-						url: '/static/recommend/r5.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f326aad95.png',
 						text: '蛋类',
 						height: 95,
 						width: 100,
@@ -83,7 +83,7 @@
 						table_title: '蛋类及制品'
 					},
 					{
-						url: '/static/recommend/r6.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f326a538c.png',
 						text: '乳类',
 						height: 100,
 						width: 105,
@@ -92,7 +92,7 @@
 						table_title: '乳类及制品'
 					},
 					{
-						url: '/static/recommend/r7.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f326b58ca.png',
 						text: '禽肉类',
 						height: 85,
 						width: 115,
@@ -101,7 +101,7 @@
 						table_title: '禽肉类及制品'
 					},
 					{
-						url: '/static/recommend/r8.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f326b035d.png',
 						text: '坚果类',
 						height: 100,
 						width: 100,
@@ -110,7 +110,7 @@
 						table_title: '坚果类'
 					},
 					{
-						url: '/static/recommend/r9.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f326a52a8.png',
 						text: '油脂类',
 						height: 100,
 						width: 65,

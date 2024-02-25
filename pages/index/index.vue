@@ -53,7 +53,7 @@
 				interval: 2000,
 				duration: 500,
 				homeList: [{
-						url: '/static/home/早.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbeffd9.png',
 						text: '早餐记录',
 						badge: '0',
 						type: "primary",
@@ -62,7 +62,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: '/static/home/中.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf0104.png',
 						text: '中餐记录',
 						badge: '0',
 						type: "primary",
@@ -71,7 +71,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: '/static/home/晚.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbeffd0.png',
 						text: '晚餐记录',
 						badge: '0',
 						type: "primary",
@@ -80,7 +80,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: '/static/home/零食.png',
+						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf01b8.png',
 						text: '零食记录',
 						badge: '0',
 						type: "primary",
@@ -90,7 +90,7 @@
 					},
 				],
 				homeList2: [{
-					url: '/static/home/估重.png',
+					url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf002c.png',
 					text: '估重',
 					badge: '0',
 					type: "primary",

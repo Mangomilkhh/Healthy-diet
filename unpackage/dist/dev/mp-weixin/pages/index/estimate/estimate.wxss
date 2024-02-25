@@ -1,9 +1,0 @@
-/* 水平间距 */
-/* 水平间距 */
-.data-v-2b9e5841 .uni-card .uni-card__content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}

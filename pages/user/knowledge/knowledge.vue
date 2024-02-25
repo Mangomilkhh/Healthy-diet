@@ -1,7 +1,7 @@
 <template>
 	<view class="">
 		<uni-list>
-			<uni-list-item  showArrow thumb-size="lg" link
+			<uni-list-item  showArrow thumb-size="lg" link @click="toPic(item)"
 				v-for="(item ,index) in knowledgeList" :key="index">
 				<template v-slot:body>
 					<view class="slot-box">
@@ -14,23 +14,20 @@
 </template>
 
 <script>
+	import knowledges from '@/api/knowledges.json'
 	export default{
 		data(){
 			return {
-				knowledgeList:[{
-					title:'平衡膳食八大原则',
-					url:'/static/recommend/r1.png',
-				},{
-					title:'饮食与慢性低度炎症',
-					url:'',
-				},{
-					title:'抗炎饮食预防肿瘤的专家共识',
-					url:'',
-				},{
-					title:'中国居民平衡膳食宝塔与餐盘',
-					url:'',
-				}]
+				knowledgeList:knowledges,
 			}
+		},
+		methods:{
+			toPic(item) {
+				uni.navigateTo({
+					url: '/pages/user/knowledge/picPage?data=' 
+					+ encodeURIComponent(JSON.stringify(item))
+				})
+			},
 		}
 	}
 </script>

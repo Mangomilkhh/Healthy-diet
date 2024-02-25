@@ -70,6 +70,14 @@
 			}
 		},
 		{
+			"path" : "pages/user/knowledge/picPage",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "营养知识图片",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
 			"path" : "pages/recommend/question/question",
 			"style" : 
 			{
