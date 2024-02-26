@@ -263,10 +263,10 @@
 				.text_tips {
 					height: 100%;
 
-					text {
-						font-size: 13px;
-						color: #a0a9b0;
-					}
+					// text {
+					// 	font-size: 13px;
+					// 	color: #a0a9b0;
+					// }
 				}
 			}
 
@@ -395,11 +395,11 @@
 				box-sizing: border-box;
 				cursor: pointer;
 
-				&.selected {
-					color: #409eff;
-					font-weight: 700;
-					background-color: #f5f7fa;
-				}
+				// &.selected {
+				// 	color: #409eff;
+				// 	font-weight: 700;
+				// 	background-color: #f5f7fa;
+				// }
 			}
 
 			.select_content_li:hover {

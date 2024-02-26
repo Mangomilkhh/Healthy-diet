@@ -98,13 +98,13 @@
 						if(!item.infla_score){
 							item.result = 0;
 						}
-						// console.log('solo分数', item)
+						
 						let num = Number(item.result);
 						totalScore += num;
 					})
 					totalScore = totalScore * 1000
 					totalScore = this.fixed(totalScore, 4)
-					console.log('分数', totalScore)
+					console.log('分数',this.foodsList, totalScore)
 
 					if (isNaN(totalScore)) {
 						totalScore = '无'
@@ -147,6 +147,7 @@
 					}
 					score = this.fixed(caculateResult, 4);
 					this.foodsList[index].result = score;
+					console.log('离开输入框',score)
 				}
 			},
 			changeSelect(index, foodId) {
@@ -179,12 +180,14 @@
 						icon: 'none',
 						duration: 2000
 					});
+				console.log('弹出提醒无此食物',this.inputCon,!isExist,!this.closeOptions)
 				} else if (isExist) {
 					this.changeSelect(index, isExist.id)
 				}
+				
+				console.log('下拉框关闭时', this.foodsList[index].nameVal)
 				// else if (!this.inputCon && ){
 				// this.foodsList[index].nameVal = ''
-				console.log('3333', this.foodsList[index].nameVal)
 				// }
 			},
 			fixed(num, bit) {

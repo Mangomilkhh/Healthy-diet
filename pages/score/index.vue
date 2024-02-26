@@ -28,6 +28,8 @@
 		// 应用程序进入前台时触发，在此方法中可以加载页面数据，刷新页面等操作
 		onShow() {
 			let localScore = uni.getStorageSync("totalScore");
+			console.log('获取存储总分', localScore)
+			
 			// isNaN(localScore) ? '无' : 
 			this.totalScore = localScore; //取值
 
