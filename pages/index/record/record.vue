@@ -1,36 +1,40 @@
 <template>
-	<view class="record_box" v-for="(item,index) in foodsList" :key="item.key">
-		<icon v-show="showIcon" class="record_icon" type="cancel" size="18" color="#9e9e9e" @click="deleteFoods(index)" />
-		<view class="name_box">
-			<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02de2e.png" mode=""></image>
-			<view>食物名称：
-				<cus-selects v-model="item.nameVal" :filterable='true' :searchType='1' placeholder="请输入关键字"
-					@change="e=>changeSelect(index, e)" noDataText="无匹配项" @close="e=>closeSelect(index, e)"
-					@input="e=>inputSelect(index, e)" :valueType="alias" :data="selectList"></cus-selects>
+	<!-- 使用uniapp的form组件 在表单提交时 才可以实现输入框先失焦再提交 -->
+	<form @submit="toScore">
+		<view class="record_box" v-for="(item,index) in foodsList" :key="item.key">
+			<icon v-show="showIcon" class="record_icon" type="cancel" size="18" color="#9e9e9e" @click="deleteFoods(index)" />
+			<view class="name_box">
+				<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02de2e.png" mode=""></image>
+				<view>食物名称：
+					<cus-selects v-model="item.nameVal" :filterable='true' :searchType='1' placeholder="请输入关键字"
+						@change="e=>changeSelect(index, e)" noDataText="无匹配项" @close="e=>closeSelect(index, e)"
+						@input="e=>inputSelect(index, e)" :valueType="alias" :data="selectList"></cus-selects>
 
-				<!-- <uni-combox v-model="item.nameVal" @change="changeSelect" :candidates="selectList"
-				  labelKey="label" valueKey="id" label=""  emptyTips="暂无数据"
-					placeholder="请输入关键字"></uni-combox> -->
+					<!-- <uni-combox v-model="item.nameVal" @change="changeSelect" :candidates="selectList"
+						labelKey="label" valueKey="id" label=""  emptyTips="暂无数据"
+						placeholder="请输入关键字"></uni-combox> -->
+				</view>
 			</view>
-		</view>
 
-		<view class="weight_box">
-			<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02df63.png" mode=""></image>
-			<view>食物重量：
-				<view style="width: 470rpx;display: flex;">
-					<uni-easyinput trim="all" v-model="item.weightVal" placeholder="请输入重量" type="number"
-						@blur="(e)=>inputWeight(index,e)"></uni-easyinput>
-					<!-- 	@input="(e)=>handleNumber(index,e)" -->
-					<view style="display: inline-block;margin-left: 5rpx;">g</view>
+			<view class="weight_box">
+				<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d02df63.png" mode=""></image>
+				<view>食物重量：
+					<view style="width: 470rpx;display: flex;">
+						<uni-easyinput trim="all" v-model="item.weightVal" placeholder="请输入重量" type="number"
+							@blur="(e)=>inputWeight(index,e)"></uni-easyinput>
+						<!-- 	@input="(e)=>handleNumber(index,e)" -->
+						<view style="display: inline-block;margin-left: 5rpx;">g</view>
+					</view>
 				</view>
 			</view>
 		</view>
-	</view>
 
-	<view class="btn_box">
-		<button class="add_btn" @click="addFoods">+ 增加食物</button>
-		<button class="btn" @click="toScore">开始评分</button>
-	</view>
+		<view class="btn_box">
+			<button class="add_btn" @click="addFoods">+ 增加食物</button>
+			<button class="btn" form-type="submit">开始评分</button>
+			<!--  @click="toScore" -->
+		</view>
+	</form>
 </template>
 
 <script>
