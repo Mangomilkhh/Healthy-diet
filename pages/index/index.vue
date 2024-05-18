@@ -1,3 +1,4 @@
+
 <template>
 	<view class="container">
 		<view class="uni-margin-wrap">
@@ -53,7 +54,7 @@
 				interval: 2000,
 				duration: 500,
 				homeList: [{
-						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbeffd9.png',
+						url: 'https://static.verdure-hiro.cn/healthy/static/home/早.png',
 						text: '早餐记录',
 						badge: '0',
 						type: "primary",
@@ -62,7 +63,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf0104.png',
+						url: 'https://static.verdure-hiro.cn/healthy/static/home/中.png',
 						text: '中餐记录',
 						badge: '0',
 						type: "primary",
@@ -71,7 +72,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbeffd0.png',
+						url: 'https://static.verdure-hiro.cn/healthy/static/home/晚.png',
 						text: '晚餐记录',
 						badge: '0',
 						type: "primary",
@@ -80,7 +81,7 @@
 						navigate: '/pages/index/record/record'
 					},
 					{
-						url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf01b8.png',
+						url: 'https://static.verdure-hiro.cn/healthy/static/home/零食.png',
 						text: '零食记录',
 						badge: '0',
 						type: "primary",
@@ -90,7 +91,7 @@
 					},
 				],
 				homeList2: [{
-					url: 'https://www.freeimg.cn/i/2024/02/24/65d9f2bbf002c.png',
+					url: 'https://static.verdure-hiro.cn/healthy/static/home/估重.png',
 					text: '估重',
 					badge: '0',
 					type: "primary",

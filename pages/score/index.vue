@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<image src="https://www.freeimg.cn/i/2024/02/24/65d9f7422975f.png" mode="" class="doctor"></image>
+		<image src="https://static.verdure-hiro.cn/healthy/static/doctor.png" mode="" class="doctor"></image>
 
 		<view class="score">
 			<text>您的膳食炎症评分为</text>

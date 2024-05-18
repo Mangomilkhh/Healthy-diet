@@ -7,8 +7,9 @@
 			<!-- <button v-show="!user_img&&!user_name" class="button" @click="get_user">授权登录</button> -->
 		</view>
 		<uni-list>
-			<uni-list-item title="营养知识" showArrow thumb="https://www.freeimg.cn/i/2024/02/24/65d9f73010e80.png" thumb-size="lg" @click="toKnowledge" link/>
-			<uni-list-item title="评价与反馈" showArrow thumb="https://www.freeimg.cn/i/2024/02/24/65d9f73012d2d.png" thumb-size="lg" @click="toFeedback" link/>
+			<!--  @click="toKnowledge" -->
+			<uni-list-item title="营养知识" :disabled="true" showArrow thumb="https://static.verdure-hiro.cn/healthy/static/user/u1.png" thumb-size="lg" @click="toKnowledge" link/>
+			<uni-list-item title="评价与反馈" showArrow thumb="https://static.verdure-hiro.cn/healthy/static/user/u2.png" thumb-size="lg" @click="toFeedback" link/>
 		</uni-list>
 	</view>
 </template>

@@ -1,6 +1,6 @@
 <template>
 	<view class="what_box">
-		<image src="https://www.freeimg.cn/i/2024/02/24/65d9f2d0cc0ce.png" mode="" class="what"></image>
+		<image src="https://static.verdure-hiro.cn/healthy/static/recommend/？.png" mode="" class="what"></image>
 	</view>
 	<view class="question">
 		<text style="font-size: 24px;display: block;margin-bottom: 40rpx;"><text style="background-color: #5bff5b8a;">绿色</text>
