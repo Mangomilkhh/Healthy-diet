@@ -2,7 +2,7 @@
 	<!-- 使用uniapp的form组件 在表单提交时 才可以实现输入框先失焦再提交 -->
 	<form @submit="toScore">
 		<view class="record_box" v-for="(item,index) in foodsList" :key="item.key">
-			<icon v-show="showIcon" class="record_icon" type="cancel" size="18" color="#9e9e9e" @click="deleteFoods(index)" />
+			<icon v-show="showIcon" class="record_icon" type="cancel" size="18" color="#9e9e9e" @click="deleteFoods(item.key)" />
 			<view class="name_box">
 				<image src="https://static.verdure-hiro.cn/healthy/static/home/record/name.png" mode=""></image>
 				<view>食物名称：
@@ -64,6 +64,7 @@
 				}],
 				showIcon: false,
 				closeOptions: false,
+        keysSet: new Set(),// 存储已生成的键值,在添加一项食物时
 			}
 		},
 		mounted() {
@@ -199,23 +200,37 @@
 				let dig = Math.pow(10, bit);
 				return Math.round(num * dig) / dig;
 			},
+      // 生成唯一随机键值的函数
+      generateUniqueKey(existingKeys) {
+        // 随机字符串长度
+        const length = 8;
+        let uniqueKey;
+
+        do {
+            // 生成随机字符串
+            uniqueKey = Math.random().toString(36).substring(2, length + 2);
+        } while (existingKeys.has(uniqueKey)); // 检查是否已存在
+
+        // 添加到已存在的键集中
+        existingKeys.add(uniqueKey);
+        return uniqueKey;
+      },
 			addFoods() {
 				this.showIcon = true;
-				// this.foodsList.push({})
 				let arrlength = this.foodsList.length;
+        let randomId = this.generateUniqueKey(this.keysSet);// 生成每个食物唯一标识
+
 				this.foodsList.splice(arrlength, 0, {
-					key: arrlength,
+					key: randomId,
 					weightVal: '',
 					nameVal: '',
 					infla_score: 0,
 					expression: '',
 				})
 			},
-			deleteFoods(index) {
-				// 问题：index传输正确，却在每次点击删除时，只删除最后一个元素
-				// 原因：key的绑定问题，只是用下标来绑定每一个标签的key，而没有与数组中元素挂钩，
-				// 因此当删除数组元素时，vue会采用一种叫做’就地更新‘的原则，将旁边的元素直接拿过来使用
-				// 解决：使用:key="item.key"代替绑定下标
+			deleteFoods(keyToDelete) {
+        // 找到唯一key进行删除
+        const index = this.foodsList.findIndex(item => item.key === keyToDelete);
 				this.foodsList.splice(index, 1)
 				// delete this.foodsList[index]
 				if (this.foodsList.length == 1) {

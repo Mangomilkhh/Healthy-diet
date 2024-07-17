@@ -24,7 +24,7 @@
  第四个参数：USER_ID 来自你的apikey文件   公钥：'Xbsu_M_8c80CtHZfe'
 -->
 <script>
- import emailjs from 'emailjs-com'
+//  import emailjs from 'emailjs-com'
 	
 	export default {
 		data() {
