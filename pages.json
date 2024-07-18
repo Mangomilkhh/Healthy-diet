@@ -118,5 +118,14 @@
 		"app-plus": {
 			"background": "#ffffff"
 		}
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+		"^index-(.*)": "@/pages/$1/$1.vue", // 匹配pages目录内的index文件
+		"^vue-file-(.*)": "@/pages/$1/$1/$1.vue", // 匹配pages目录内的其他vue文件
+		"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+		"^my-module-(.*)": "@/uni_modules/uni-$1/components/uni-$1.vue"
+	  }
 	}
 }
