@@ -25,6 +25,20 @@
 				health: '有/不利于健康。',
 			}
 		},
+		//用户点击右上角转发
+		onShareAppMessage: function () {
+			return {
+				title: '测试您的膳食炎症评分，查看您的健康状态！',
+				path: 'pages/score/index'
+			}
+		},
+		//用户点击右上角转发到朋友圈
+		onShareTimeline: function () {
+			return {
+				title: '测试您的膳食炎症评分，查看您的健康状态！',
+				path: 'pages/score/index'
+			}
+		},
 		// 应用程序进入前台时触发，在此方法中可以加载页面数据，刷新页面等操作
 		onShow() {
 			let localScore = uni.getStorageSync("totalScore");
